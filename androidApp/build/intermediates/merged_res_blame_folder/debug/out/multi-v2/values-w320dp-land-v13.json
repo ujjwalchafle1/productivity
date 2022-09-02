@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.uj.productivity.android.androidApp-mergeDebugResources-17:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/1dd0c45546d2a75b7d462202a234049d/transformed/material-1.4.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

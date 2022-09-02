@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Productivity.iml" filepath="$PROJECT_DIR$/.idea/modules/Productivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dashboard/Productivity.Dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/Dashboard/Productivity.Dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Notes/Productivity.Notes.iml" filepath="$PROJECT_DIR$/.idea/modules/Notes/Productivity.Notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/Productivity.module.iml" filepath="$PROJECT_DIR$/.idea/modules/module/Productivity.module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidAndroidTestRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidAndroidTestRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTestFixtures.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTestFixtures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTestFixturesDebug.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTestFixturesDebug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTestFixturesRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTestFixturesRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidAndroidTestRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidAndroidTestRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTestFixtures.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTestFixtures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTestFixturesDebug.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTestFixturesDebug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTestFixturesRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.androidTestFixturesRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosArm64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosArm64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosSimulatorArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosSimulatorArm64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosSimulatorArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosSimulatorArm64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosX64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosX64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosX64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.iosX64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/dashboard/Productivity.shared.dashboard.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosArm64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosArm64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosSimulatorArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosSimulatorArm64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosSimulatorArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosSimulatorArm64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosX64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosX64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosX64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iosX64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.unitTest.iml" />
+    </modules>
+  </component>
+</project>

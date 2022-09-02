@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "029cda7cf562553728b031d305ccc1ecaeab90ae94d7ddc15723ba264e795a34"
+build_start_time: [1662126347, 768457889]
+build_end_time: [1662126347, 821321964]
+inputs:
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/Productivity/iosApp/iosApp/ContentView.swift": [1662125209, 946349620]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/Productivity/iosApp/iosApp/iOSApp.swift": [1662044960, 883050680]
