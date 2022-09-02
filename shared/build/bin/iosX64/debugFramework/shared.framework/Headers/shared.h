@@ -6,6 +6,8 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
+@class SharedDashboardViewData;
+
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunknown-warning-option"
@@ -145,6 +147,7 @@ __attribute__((swift_name("DashboardViewModel")))
 @interface SharedDashboardViewModel : SharedBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (int32_t)daysUntilNewYear __attribute__((swift_name("daysUntilNewYear()")));
 - (NSString *)start __attribute__((swift_name("start()")));
 @end;
 
@@ -165,11 +168,15 @@ __attribute__((swift_name("Platform")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DaysRemaining")))
-@interface SharedDaysRemaining : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)start __attribute__((swift_name("start()")));
+__attribute__((swift_name("DashboardViewData")))
+@interface SharedDashboardViewData : SharedBase
+- (instancetype)initWithDaysRemaining:(NSString *)daysRemaining __attribute__((swift_name("init(daysRemaining:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (SharedDashboardViewData *)doCopyDaysRemaining:(NSString *)daysRemaining __attribute__((swift_name("doCopy(daysRemaining:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *daysRemaining __attribute__((swift_name("daysRemaining")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -177,7 +184,6 @@ __attribute__((swift_name("Greeting_")))
 @interface SharedGreeting_ : SharedBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (int32_t)daysUntilNewYear __attribute__((swift_name("daysUntilNewYear()")));
 - (NSString *)greeting __attribute__((swift_name("greeting()")));
 @end;
 

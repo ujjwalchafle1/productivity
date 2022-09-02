@@ -187,5 +187,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.6.21 - objc | ios_arm64" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.6.21 - posix | ios_arm64" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.6.21 - zlib | ios_arm64" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosarm64:klib:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.17.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-iosarm64:klib:1.3.1" level="project" />
   </component>
 </module>

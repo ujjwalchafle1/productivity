@@ -15,3 +15,4 @@ include(
 include(":Notes")
 include(":Dashboard")
 include(":module")
+include(":shared:core")

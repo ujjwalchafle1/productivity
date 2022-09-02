@@ -34,5 +34,38 @@
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4/f83eca53d0ca9fb7b4b21980e52354d443a3e354/kotlinx-coroutines-core-1.6.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-concurrentMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4/f83eca53d0ca9fb7b4b21980e52354d443a3e354/kotlinx-coroutines-core-1.6.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.3.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.3.2/369d037ba8a21c4cc18e34748a03b926a2840c44/kotlinx-datetime-0.3.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

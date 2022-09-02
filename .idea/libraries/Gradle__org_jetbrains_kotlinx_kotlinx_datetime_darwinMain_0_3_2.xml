@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.3.2">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.3.2" type="kotlin.native">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.Productivity/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.Productivity/iosArm64Test/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
