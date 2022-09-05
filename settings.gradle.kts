@@ -12,7 +12,4 @@ include(
     ":shared",
     ":shared:dashboard"
 )
-include(":Notes")
-include(":Dashboard")
-include(":module")
 include(":shared:core")

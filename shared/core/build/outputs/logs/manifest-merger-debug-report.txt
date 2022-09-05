@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml:2:1-35
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml:2:1-35
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml:2:1-35
+	package
+		ADDED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml:2:11-32
+		INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml:2:1-35
+uses-sdk
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/src/androidMain/AndroidManifest.xml

@@ -47,5 +47,11 @@
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestFixturesRelease" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.main" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidAndroidTestRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixtures" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixturesDebug" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixturesRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.main" />
   </component>
 </module>

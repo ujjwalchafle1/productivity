@@ -38,6 +38,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.6.21 - stdlib" level="project" />
     <orderEntry type="module" module-name="Productivity.shared.commonMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosArm64Main" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.iosArm64Main" />
     <orderEntry type="module" module-name="Productivity.shared.iosMain" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.6.21 - ARKit | ios_arm64" level="project" />
@@ -190,10 +191,41 @@
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.6.21 - zlib | ios_arm64" level="project" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.iosMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosMain" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-compose:aar:2.5.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.6.4" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosarm64:klib:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:aar:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.runtime:runtime:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common-java8:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:aar:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:aar:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.runtime:runtime-saveable:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-text:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-graphics:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-unit:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-geometry:aar:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:aar:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:aar:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core-ktx:aar:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:aar:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.17.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.17.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-iosarm64:klib:1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:aar:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:aar:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:aar:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1" level="project" />
   </component>
 </module>

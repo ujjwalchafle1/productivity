@@ -17,6 +17,7 @@ kotlin {
             embedBitcode(org.jetbrains.kotlin.gradle.plugin.mpp.Framework.BitcodeEmbeddingMode.BITCODE)
             // Features.
             export(project(":shared:dashboard"))
+            export(project(":shared:core"))
         }
     }
 
@@ -25,6 +26,7 @@ kotlin {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
                 api(project(":shared:dashboard"))
+                api(project(":shared:core"))
             }
         }
         val commonTest by getting {

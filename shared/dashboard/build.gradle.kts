@@ -23,9 +23,11 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.3.2")
+                implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
+
+                api(project(":shared:core"))
             }
         }
         val commonTest by getting {

@@ -1,6 +1,9 @@
-package com.uj.dashboard.Model
+import com.uj.core.viewmodel.BaseViewData
 
-data class DashboardViewData (
-    val daysRemaining: String
-)
+sealed class DashboardViewData : BaseViewData() {
+    object Empty: DashboardViewData()
 
+    data class Data(
+        val daysRemainingInYear: String,
+    ) : DashboardViewData()
+}

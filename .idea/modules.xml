@@ -3,13 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Productivity.iml" filepath="$PROJECT_DIR$/.idea/modules/Productivity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dashboard/Productivity.Dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/Dashboard/Productivity.Dashboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Notes/Productivity.Notes.iml" filepath="$PROJECT_DIR$/.idea/modules/Notes/Productivity.Notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/Productivity.androidApp.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/Productivity.module.iml" filepath="$PROJECT_DIR$/.idea/modules/module/Productivity.module.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidAndroidTestRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidAndroidTestRelease.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/Productivity.shared.androidTest.iml" />

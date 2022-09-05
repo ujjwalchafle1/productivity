@@ -34,6 +34,12 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidAndroidTestRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixtures" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixturesDebug" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixturesRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.main" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidAndroidTestRelease" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestFixtures" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestFixturesDebug" scope="TEST" />
