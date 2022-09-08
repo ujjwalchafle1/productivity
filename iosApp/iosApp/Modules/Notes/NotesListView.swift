@@ -10,11 +10,15 @@ import SwiftUI
 
 struct NotesListView: View {
     var body: some View {
-        List {
-            ForEach(0..<100) { note in
-                Text("Note \(note)")
-                    .font(.system(size: 30, weight: .bold, design: .rounded))
+        NavigationView {
+            ZStack {
+                Color.background.edgesIgnoringSafeArea(.all)
+                ZStack {
+                    Color.background.edgesIgnoringSafeArea(.all)
+                    Text("Coming Soon!")
+                }
             }
+            .navigationTitle("Notes")
         }
     }
 }

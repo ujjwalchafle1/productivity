@@ -11,33 +11,34 @@ struct ContentView: View {
                 }
             
             NotesListView()
+                .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "book.fill")
                     Text("Notes")
                 }
             
-            Text("Task Tab")
+            TaskListView()
                 .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "checklist")
                     Text("Tasks")
                 }
             
-            Text("Routines Tab")
+            RoutinesView()
                 .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "pawprint.circle.fill")
                     Text("Routines")
                 }
             
-            Text("Profile Tab")
+            ProfileView()
                 .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "person.crop.circle")
                     Text("Profile")
                 }
         }
-        .accentColor(.red)
+        .accentColor(.primaryColor)
 	}
 }
 

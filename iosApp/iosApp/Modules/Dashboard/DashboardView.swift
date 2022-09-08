@@ -23,69 +23,26 @@ struct DashboardView: View {
                 EmptyView()
             case .content(let viewData):
                 NavigationView {
-                    VStack(alignment: .leading, spacing: 20) {
-                        VStack {
-                            Text(viewData.daysRemainingInYear)
-                                .font(.system(size: 100, weight: .bold, design: .rounded))
-                                .foregroundColor(.green)
-                        }
-                        .frame(maxWidth: .infinity, maxHeight: 200)
-                        .background(Color.gray)
-                        .cornerRadius(16)
+                    ZStack {
+                        Color.background.edgesIgnoringSafeArea(.all)
                         
-                        HStack {
-                            Text("🧘🏻 Today's self check-in")
-                                .padding()
+                        VStack(alignment: .leading, spacing: 20)  {
+                            DaysRemainingCard(title: viewData.daysRemainingInYear)
+                            
+                            SelfCheckInCard()
+                            
+                            Text("Your Toolbox")
+                                .font(.system(size: 20, weight: .bold, design: .rounded))
+
+                            ToolboxView()
+                            .frame(maxWidth: .infinity)
+                            
                             Spacer()
-                            Image(systemName: "chevron.forward")
-                                .padding()
                         }
-                        .background(Color.gray)
-                        .cornerRadius(10)
-                        
-                        Text("Your Toolbox")
-                            .font(.system(size: 20, weight: .bold, design: .rounded))
-                        HStack {
-                            VStack {
-                                Text("0")
-                                    .padding(.top, 10)
-                                    .padding(.bottom, 2)
-                                Text("Notes")
-                                    .padding(.bottom, 10)
-                            }
-                            .frame(maxWidth: .infinity)
-                            .background(Color.gray)
-                            .cornerRadius(10)
-                            
-                            VStack {
-                                Text("0")
-                                    .padding(.top, 10)
-                                    .padding(.bottom, 2)
-                                Text("Tasks")
-                                    .padding(.bottom, 10)
-                            }
-                            .frame(maxWidth: .infinity)
-                            .background(Color.gray)
-                            .cornerRadius(10)
-                            
-                            VStack {
-                                Text("0")
-                                    .padding(.top, 10)
-                                    .padding(.bottom, 2)
-                                Text("Routine")
-                                    .padding(.bottom, 10)
-                            }
-                            .frame(maxWidth: .infinity)
-                            .background(Color.gray)
-                            .cornerRadius(10)
-                        }
-                        .frame(maxWidth: .infinity)
-                        
-                        Spacer()
+                        .padding()
+
                     }
-                    .padding()
-                    
-                    .navigationTitle("Hello Ujjwal!")
+                    .navigationTitle("Good afternoon")
                 }
             }
         }
