@@ -23,9 +23,8 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
-                implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.3.2")
-                implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}")
+                implementation("org.jetbrains.kotlinx:kotlinx-datetime:${Versions.datetime}")
 
                 api(project(":shared:core"))
             }
@@ -35,7 +34,11 @@ kotlin {
                 implementation(kotlin("test"))
             }
         }
-        val androidMain by getting
+        val androidMain by getting{
+            dependencies {
+                implementation("androidx.lifecycle:lifecycle-viewmodel-compose:${Versions.composeViewModel}")
+            }
+        }
         val androidTest by getting
         val iosX64Main by getting
         val iosArm64Main by getting

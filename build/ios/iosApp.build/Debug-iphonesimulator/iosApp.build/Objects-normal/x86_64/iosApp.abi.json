@@ -1,0 +1,2408 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ProfileView",
+      "printedName": "ProfileView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp11ProfileViewV4bodyQrvp",
+          "mangledName": "$s6iosApp11ProfileViewV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp11ProfileViewV4bodyQrvg",
+              "mangledName": "$s6iosApp11ProfileViewV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProfileView",
+              "printedName": "iosApp.ProfileView",
+              "usr": "s:6iosApp11ProfileViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp11ProfileViewVACycfc",
+          "mangledName": "$s6iosApp11ProfileViewVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp11ProfileViewV",
+      "mangledName": "$s6iosApp11ProfileViewV",
+      "moduleName": "iosApp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ProfileView_Previews",
+      "printedName": "ProfileView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp20ProfileView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6iosApp20ProfileView_PreviewsV8previewsQrvpZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp20ProfileView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6iosApp20ProfileView_PreviewsV8previewsQrvgZ",
+              "moduleName": "iosApp",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProfileView_Previews",
+              "printedName": "iosApp.ProfileView_Previews",
+              "usr": "s:6iosApp20ProfileView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp20ProfileView_PreviewsVACycfc",
+          "mangledName": "$s6iosApp20ProfileView_PreviewsVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp20ProfileView_PreviewsV",
+      "mangledName": "$s6iosApp20ProfileView_PreviewsV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "iOSApp",
+      "printedName": "iOSApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp6iOSAppV4bodyQrvp",
+          "mangledName": "$s6iosApp6iOSAppV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp6iOSAppV4bodyQrvg",
+              "mangledName": "$s6iosApp6iOSAppV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "iOSApp",
+              "printedName": "iosApp.iOSApp",
+              "usr": "s:6iosApp6iOSAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp6iOSAppVACycfc",
+          "mangledName": "$s6iosApp6iOSAppVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6iosApp6iOSAppV5$mainyyFZ",
+          "mangledName": "$s6iosApp6iOSAppV5$mainyyFZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp6iOSAppV",
+      "mangledName": "$s6iosApp6iOSAppV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "shared",
+      "printedName": "shared",
+      "declKind": "Import",
+      "moduleName": "iosApp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DashboardView",
+      "printedName": "DashboardView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_viewModelAdapter",
+          "printedName": "_viewModelAdapter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "StateObject",
+              "printedName": "SwiftUI.StateObject<iosApp.DashboardViewModelAdapter>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DashboardViewModelAdapter",
+                  "printedName": "iosApp.DashboardViewModelAdapter",
+                  "usr": "s:6iosApp25DashboardViewModelAdapterC"
+                }
+              ],
+              "usr": "s:7SwiftUI11StateObjectV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp13DashboardViewV17_viewModelAdapter33_1D089009DA8D24B7994A5166668C9F3DLL7SwiftUI11StateObjectVyAA0cdfG0CGvp",
+          "mangledName": "$s6iosApp13DashboardViewV17_viewModelAdapter33_1D089009DA8D24B7994A5166668C9F3DLL7SwiftUI11StateObjectVyAA0cdfG0CGvp",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(viewModelAdapter:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardView",
+              "printedName": "iosApp.DashboardView",
+              "usr": "s:6iosApp13DashboardViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardViewModelAdapter",
+              "printedName": "iosApp.DashboardViewModelAdapter",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp13DashboardViewV16viewModelAdapterAcA0cdfG0C_tcfc",
+          "mangledName": "$s6iosApp13DashboardViewV16viewModelAdapterAcA0cdfG0C_tcfc",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp13DashboardViewV4bodyQrvp",
+          "mangledName": "$s6iosApp13DashboardViewV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp13DashboardViewV4bodyQrvg",
+              "mangledName": "$s6iosApp13DashboardViewV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp13DashboardViewV",
+      "mangledName": "$s6iosApp13DashboardViewV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DashboardView_Previews",
+      "printedName": "DashboardView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp22DashboardView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6iosApp22DashboardView_PreviewsV8previewsQrvpZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp22DashboardView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6iosApp22DashboardView_PreviewsV8previewsQrvgZ",
+              "moduleName": "iosApp",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardView_Previews",
+              "printedName": "iosApp.DashboardView_Previews",
+              "usr": "s:6iosApp22DashboardView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp22DashboardView_PreviewsVACycfc",
+          "mangledName": "$s6iosApp22DashboardView_PreviewsVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp22DashboardView_PreviewsV",
+      "mangledName": "$s6iosApp22DashboardView_PreviewsV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RoutinesView",
+      "printedName": "RoutinesView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp12RoutinesViewV4bodyQrvp",
+          "mangledName": "$s6iosApp12RoutinesViewV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp12RoutinesViewV4bodyQrvg",
+              "mangledName": "$s6iosApp12RoutinesViewV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoutinesView",
+              "printedName": "iosApp.RoutinesView",
+              "usr": "s:6iosApp12RoutinesViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp12RoutinesViewVACycfc",
+          "mangledName": "$s6iosApp12RoutinesViewVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp12RoutinesViewV",
+      "mangledName": "$s6iosApp12RoutinesViewV",
+      "moduleName": "iosApp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RoutinesView_Previews",
+      "printedName": "RoutinesView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp21RoutinesView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6iosApp21RoutinesView_PreviewsV8previewsQrvpZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp21RoutinesView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6iosApp21RoutinesView_PreviewsV8previewsQrvgZ",
+              "moduleName": "iosApp",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoutinesView_Previews",
+              "printedName": "iosApp.RoutinesView_Previews",
+              "usr": "s:6iosApp21RoutinesView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp21RoutinesView_PreviewsVACycfc",
+          "mangledName": "$s6iosApp21RoutinesView_PreviewsVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp21RoutinesView_PreviewsV",
+      "mangledName": "$s6iosApp21RoutinesView_PreviewsV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "shared",
+      "printedName": "shared",
+      "declKind": "Import",
+      "moduleName": "iosApp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DashboardViewModelAdapter",
+      "printedName": "DashboardViewModelAdapter",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "viewData",
+          "printedName": "viewData",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardViewData",
+              "printedName": "iosApp.DashboardViewData",
+              "usr": "s:6iosApp17DashboardViewDataO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0Ovp",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0Ovp",
+          "moduleName": "iosApp",
+          "isOpen": true,
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DashboardViewData",
+                  "printedName": "iosApp.DashboardViewData",
+                  "usr": "s:6iosApp17DashboardViewDataO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0Ovg",
+              "mangledName": "$s6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0Ovg",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DashboardViewData",
+                  "printedName": "iosApp.DashboardViewData",
+                  "usr": "s:6iosApp17DashboardViewDataO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0Ovs",
+              "mangledName": "$s6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0Ovs",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0OvM",
+              "mangledName": "$s6iosApp25DashboardViewModelAdapterC8viewDataAA0cdH0OvM",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$viewData",
+          "printedName": "$viewData",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Publisher",
+              "printedName": "Combine.Published<iosApp.DashboardViewData>.Publisher",
+              "usr": "s:7Combine9PublishedV9PublisherV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_Gvp",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_Gvp",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Publisher",
+                  "printedName": "Combine.Published<iosApp.DashboardViewData>.Publisher",
+                  "usr": "s:7Combine9PublishedV9PublisherV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_Gvg",
+              "mangledName": "$s6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_Gvg",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Publisher",
+                  "printedName": "Combine.Published<iosApp.DashboardViewData>.Publisher",
+                  "usr": "s:7Combine9PublishedV9PublisherV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_Gvs",
+              "mangledName": "$s6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_Gvs",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "isOpen": true,
+              "intro_Macosx": "11.0",
+              "intro_iOS": "14.0",
+              "intro_tvOS": "14.0",
+              "intro_watchOS": "7.0",
+              "declAttributes": [
+                "Available",
+                "Available",
+                "Available",
+                "Available"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_GvM",
+              "mangledName": "$s6iosApp25DashboardViewModelAdapterC9$viewData7Combine9PublishedV9PublisherVyAA0cdH0O_GvM",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "isOpen": true,
+              "intro_Macosx": "11.0",
+              "intro_iOS": "14.0",
+              "intro_tvOS": "14.0",
+              "intro_watchOS": "7.0",
+              "declAttributes": [
+                "Available",
+                "Available",
+                "Available",
+                "Available"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_viewData",
+          "printedName": "_viewData",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Published",
+              "printedName": "Combine.Published<iosApp.DashboardViewData>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DashboardViewData",
+                  "printedName": "iosApp.DashboardViewData",
+                  "usr": "s:6iosApp17DashboardViewDataO"
+                }
+              ],
+              "usr": "s:7Combine9PublishedV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC9_viewData33_2ADA62332E19A7CA12E9F10D1A6BE469LL7Combine9PublishedVyAA0cdH0OGvp",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC9_viewData33_2ADA62332E19A7CA12E9F10D1A6BE469LL7Combine9PublishedVyAA0cdH0OGvp",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "shared",
+          "printedName": "shared",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardViewModel",
+              "printedName": "shared.DashboardViewModel",
+              "usr": "c:objc(cs)SharedDashboardViewModel"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC6shared33_2ADA62332E19A7CA12E9F10D1A6BE469LLSo06SharedcdE0Cvp",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC6shared33_2ADA62332E19A7CA12E9F10D1A6BE469LLSo06SharedcdE0Cvp",
+          "moduleName": "iosApp",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(viewData:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardViewModelAdapter",
+              "printedName": "iosApp.DashboardViewModelAdapter",
+              "usr": "s:6iosApp25DashboardViewModelAdapterC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardViewData",
+              "printedName": "iosApp.DashboardViewData",
+              "hasDefaultArg": true,
+              "usr": "s:6iosApp17DashboardViewDataO"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC8viewDataAcA0cdH0O_tcfc",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC8viewDataAcA0cdH0O_tcfc",
+          "moduleName": "iosApp",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "present",
+          "printedName": "present()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC7presentyyF",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC7presentyyF",
+          "moduleName": "iosApp",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "makeViewData",
+          "printedName": "makeViewData(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DashboardViewData",
+              "printedName": "shared.DashboardViewData",
+              "usr": "c:objc(cs)SharedDashboardViewData"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6iosApp25DashboardViewModelAdapterC04makeD4Data4fromySo06SharedcdH0C_tF",
+          "mangledName": "$s6iosApp25DashboardViewModelAdapterC04makeD4Data4fromySo06SharedcdH0C_tF",
+          "moduleName": "iosApp",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:6iosApp25DashboardViewModelAdapterC",
+      "mangledName": "$s6iosApp25DashboardViewModelAdapterC",
+      "moduleName": "iosApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp11ContentViewV4bodyQrvp",
+          "mangledName": "$s6iosApp11ContentViewV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp11ContentViewV4bodyQrvg",
+              "mangledName": "$s6iosApp11ContentViewV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "iosApp.ContentView",
+              "usr": "s:6iosApp11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp11ContentViewVACycfc",
+          "mangledName": "$s6iosApp11ContentViewVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp11ContentViewV",
+      "mangledName": "$s6iosApp11ContentViewV",
+      "moduleName": "iosApp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6iosApp20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6iosApp20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "iosApp",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "iosApp.ContentView_Previews",
+              "usr": "s:6iosApp20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp20ContentView_PreviewsVACycfc",
+          "mangledName": "$s6iosApp20ContentView_PreviewsVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp20ContentView_PreviewsV",
+      "mangledName": "$s6iosApp20ContentView_PreviewsV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TaskListView",
+      "printedName": "TaskListView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp12TaskListViewV4bodyQrvp",
+          "mangledName": "$s6iosApp12TaskListViewV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp12TaskListViewV4bodyQrvg",
+              "mangledName": "$s6iosApp12TaskListViewV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TaskListView",
+              "printedName": "iosApp.TaskListView",
+              "usr": "s:6iosApp12TaskListViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp12TaskListViewVACycfc",
+          "mangledName": "$s6iosApp12TaskListViewVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp12TaskListViewV",
+      "mangledName": "$s6iosApp12TaskListViewV",
+      "moduleName": "iosApp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TaskListView_Previews",
+      "printedName": "TaskListView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp21TaskListView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6iosApp21TaskListView_PreviewsV8previewsQrvpZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp21TaskListView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6iosApp21TaskListView_PreviewsV8previewsQrvgZ",
+              "moduleName": "iosApp",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TaskListView_Previews",
+              "printedName": "iosApp.TaskListView_Previews",
+              "usr": "s:6iosApp21TaskListView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp21TaskListView_PreviewsVACycfc",
+          "mangledName": "$s6iosApp21TaskListView_PreviewsVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp21TaskListView_PreviewsV",
+      "mangledName": "$s6iosApp21TaskListView_PreviewsV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NotesListView",
+      "printedName": "NotesListView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp13NotesListViewV4bodyQrvp",
+          "mangledName": "$s6iosApp13NotesListViewV4bodyQrvp",
+          "moduleName": "iosApp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp13NotesListViewV4bodyQrvg",
+              "mangledName": "$s6iosApp13NotesListViewV4bodyQrvg",
+              "moduleName": "iosApp",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NotesListView",
+              "printedName": "iosApp.NotesListView",
+              "usr": "s:6iosApp13NotesListViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp13NotesListViewVACycfc",
+          "mangledName": "$s6iosApp13NotesListViewVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp13NotesListViewV",
+      "mangledName": "$s6iosApp13NotesListViewV",
+      "moduleName": "iosApp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NotesListView_Previews",
+      "printedName": "NotesListView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6iosApp22NotesListView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6iosApp22NotesListView_PreviewsV8previewsQrvpZ",
+          "moduleName": "iosApp",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6iosApp22NotesListView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6iosApp22NotesListView_PreviewsV8previewsQrvgZ",
+              "moduleName": "iosApp",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NotesListView_Previews",
+              "printedName": "iosApp.NotesListView_Previews",
+              "usr": "s:6iosApp22NotesListView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6iosApp22NotesListView_PreviewsVACycfc",
+          "mangledName": "$s6iosApp22NotesListView_PreviewsVACycfc",
+          "moduleName": "iosApp",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6iosApp22NotesListView_PreviewsV",
+      "mangledName": "$s6iosApp22NotesListView_PreviewsV",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "iosApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DashboardViewData",
+      "printedName": "DashboardViewData",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "empty",
+          "printedName": "empty",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(iosApp.DashboardViewData.Type) -> iosApp.DashboardViewData",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DashboardViewData",
+                  "printedName": "iosApp.DashboardViewData",
+                  "usr": "s:6iosApp17DashboardViewDataO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "iosApp.DashboardViewData.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DashboardViewData",
+                      "printedName": "iosApp.DashboardViewData",
+                      "usr": "s:6iosApp17DashboardViewDataO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:6iosApp17DashboardViewDataO5emptyyA2CmF",
+          "mangledName": "$s6iosApp17DashboardViewDataO5emptyyA2CmF",
+          "moduleName": "iosApp",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "content",
+          "printedName": "content",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(iosApp.DashboardViewData.Type) -> (iosApp.DashboardViewData.Content) -> iosApp.DashboardViewData",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(iosApp.DashboardViewData.Content) -> iosApp.DashboardViewData",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DashboardViewData",
+                      "printedName": "iosApp.DashboardViewData",
+                      "usr": "s:6iosApp17DashboardViewDataO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Content",
+                      "printedName": "iosApp.DashboardViewData.Content",
+                      "usr": "s:6iosApp17DashboardViewDataO7ContentV"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "iosApp.DashboardViewData.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DashboardViewData",
+                      "printedName": "iosApp.DashboardViewData",
+                      "usr": "s:6iosApp17DashboardViewDataO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:6iosApp17DashboardViewDataO7contentyA2C7ContentVcACmF",
+          "mangledName": "$s6iosApp17DashboardViewDataO7contentyA2C7ContentVcACmF",
+          "moduleName": "iosApp",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Content",
+          "printedName": "Content",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "daysRemainingInYear",
+              "printedName": "daysRemainingInYear",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:6iosApp17DashboardViewDataO7ContentV19daysRemainingInYearSSvp",
+              "mangledName": "$s6iosApp17DashboardViewDataO7ContentV19daysRemainingInYearSSvp",
+              "moduleName": "iosApp",
+              "declAttributes": [
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "isLet": true,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:6iosApp17DashboardViewDataO7ContentV19daysRemainingInYearSSvg",
+                  "mangledName": "$s6iosApp17DashboardViewDataO7ContentV19daysRemainingInYearSSvg",
+                  "moduleName": "iosApp",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(daysRemainingInYear:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Content",
+                  "printedName": "iosApp.DashboardViewData.Content",
+                  "usr": "s:6iosApp17DashboardViewDataO7ContentV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:6iosApp17DashboardViewDataO7ContentV19daysRemainingInYearAESS_tcfc",
+              "mangledName": "$s6iosApp17DashboardViewDataO7ContentV19daysRemainingInYearAESS_tcfc",
+              "moduleName": "iosApp",
+              "implicit": true,
+              "init_kind": "Designated"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:6iosApp17DashboardViewDataO7ContentV",
+          "mangledName": "$s6iosApp17DashboardViewDataO7ContentV",
+          "moduleName": "iosApp",
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:6iosApp17DashboardViewDataO",
+      "mangledName": "$s6iosApp17DashboardViewDataO",
+      "moduleName": "iosApp",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

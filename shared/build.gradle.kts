@@ -15,16 +15,19 @@ kotlin {
             baseName = "shared"
 
             embedBitcode(org.jetbrains.kotlin.gradle.plugin.mpp.Framework.BitcodeEmbeddingMode.BITCODE)
+
             // Features.
             export(project(":shared:dashboard"))
             export(project(":shared:core"))
+
+            export(Deps.coroutines)
         }
     }
 
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+                implementation(Deps.coroutines)
                 api(project(":shared:dashboard"))
                 api(project(":shared:core"))
             }

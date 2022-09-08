@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "029cda7cf562553728b031d305ccc1ecaeab90ae94d7ddc15723ba264e795a34"
+build_start_time: [1662638805, 759913921]
+build_end_time: [1662638807, 90467929]
+inputs:
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/ContentView.swift": !private [1662565775, 677388191]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Dashboard/DashboardView.swift": [1662638377, 973358631]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Dashboard/DashboardViewData.swift": [1662386827, 769520759]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Dashboard/DashboardViewModelAdapter.swift": !private [1662638395, 466886997]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Notes/NotesListView.swift": [1662133287, 24483203]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Profile/ProfileView.swift": [1662133100, 78521728]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Routines/RoutinesView.swift": [1662133115, 585721492]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/Modules/Tasks/TaskListView.swift": [1662133148, 395209789]
+  "/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/iosApp/iosApp/iOSApp.swift": [1662044960, 883050680]

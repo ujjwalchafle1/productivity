@@ -1,23 +1,28 @@
 package com.uj.dashboard
 
 import BaseViewModel
-import DashboardViewData
+import ViewDataResource
+import com.uj.dashboard.Model.DashboardViewData
 import kotlinx.datetime.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-class DashboardViewModel : BaseViewModel<DashboardViewData>() {
+class DashboardViewModel : BaseViewModel<ViewDataResource<DashboardViewData>>() {
 
-    private val _viewData = MutableStateFlow<DashboardViewData>(DashboardViewData.Empty)
-    override val viewData: StateFlow<DashboardViewData>
+    private val _viewData = MutableStateFlow<ViewDataResource<DashboardViewData>>(ViewDataResource.Empty())
+    override val viewData: StateFlow<ViewDataResource<DashboardViewData>>
         get() = _viewData
 
     fun start() {
         backgroundScope.launch {
-                _viewData.value = DashboardViewData.Data (
-                    daysRemainingInYear = "${daysUntilNewYear()}"
+            _viewData.emit(
+                ViewDataResource.Data(
+                    DashboardViewData(
+                        daysRemainingInYear = "${daysUntilNewYear()}"
+                    )
                 )
+            )
         }
     }
 

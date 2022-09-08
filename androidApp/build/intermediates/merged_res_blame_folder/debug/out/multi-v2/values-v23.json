@@ -4,7 +4,7 @@
             "outputFile": "com.uj.productivity.android.androidApp-mergeDebugResources-32:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/6fb03c786f1066fb43065e541f35ffd4/transformed/appcompat-1.3.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/0451d685b04ff97bc82e22b3fe1c2af7/transformed/appcompat-1.3.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/1dd0c45546d2a75b7d462202a234049d/transformed/material-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/908c8d8e850726d2b220b450bbe50732/transformed/material-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/13dacc0ceee561b9082169b90af4b02a/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ujjwalchafle/.gradle/caches/transforms-3/679d9d0177db1693b897401ff6ed7155/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

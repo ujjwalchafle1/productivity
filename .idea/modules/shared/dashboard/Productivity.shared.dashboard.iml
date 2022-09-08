@@ -34,17 +34,55 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidAndroidTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidAndroidTestDebug" />
     <orderEntry type="module" module-name="Productivity.shared.core.androidAndroidTestRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidDebug" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidDebugAndroidTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidDebugUnitTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidReleaseUnitTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestDebug" />
     <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixtures" />
     <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixturesDebug" />
     <orderEntry type="module" module-name="Productivity.shared.core.androidTestFixturesRelease" />
+    <orderEntry type="module" module-name="Productivity.shared.core.androidTestRelease" />
     <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
-    <orderEntry type="module" module-name="Productivity.shared.core.main" />
+    <orderEntry type="module" module-name="Productivity.shared.core.commonTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosArm64Main" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosArm64Test" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosMain" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosSimulatorArm64Main" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosSimulatorArm64Test" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosTest" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosX64Main" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosX64Test" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidAndroidTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidAndroidTestDebug" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidAndroidTestRelease" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidDebug" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidDebugAndroidTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidDebugUnitTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidMain" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidRelease" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidReleaseUnitTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestDebug" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestFixtures" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestFixturesDebug" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestFixturesRelease" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.androidTestRelease" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" scope="TEST" />
-    <orderEntry type="module" module-name="Productivity.shared.dashboard.main" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.commonTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosArm64Main" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosArm64Test" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosMain" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosSimulatorArm64Main" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosSimulatorArm64Test" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosTest" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosX64Main" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosX64Test" scope="TEST" />
   </component>
 </module>
