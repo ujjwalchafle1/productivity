@@ -12,7 +12,6 @@ struct TaskListView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color.background.edgesIgnoringSafeArea(.all)
                 Text("Coming Soon!")
             }
             .navigationTitle("Tasks")

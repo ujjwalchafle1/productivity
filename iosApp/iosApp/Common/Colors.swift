@@ -8,12 +8,12 @@
 import SwiftUI
 
 public extension Color {
-    static let background = Color("PrimaryBG")
+    static let background = Color("Color2")
     static let secondaryBackground = Color("SecondaryBG")
 
-    static let primaryColor = Color("Secondary")
+    static let primaryColor = Color("Color1")
     static let primaryPressed = Color("PrimaryPressed")
     
-    static let secondaryColor = Color("Primary")
+    static let secondaryColor = Color("Color2")
 
 }

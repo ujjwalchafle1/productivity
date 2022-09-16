@@ -12,9 +12,7 @@ struct NotesListView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color.background.edgesIgnoringSafeArea(.all)
                 ZStack {
-                    Color.background.edgesIgnoringSafeArea(.all)
                     Text("Coming Soon!")
                 }
             }

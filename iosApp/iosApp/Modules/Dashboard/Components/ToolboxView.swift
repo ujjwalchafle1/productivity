@@ -39,9 +39,77 @@ struct ToolboxView: View {
     }
 }
 
-//
-//struct ToolboxView_Previews: PreviewProvider {
-//    static var previews: some View {
-////        ToolboxView()
-//    }
-//}
+struct CardView: View {
+    
+    @State var index = 0
+    
+    var body: some View {
+        
+        HStack(spacing: 25) {
+            
+            VStack(spacing: 12) {
+                
+                Image(systemName: "book.fill")
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .padding()
+                    .background(Color.white)
+                    .clipShape(Circle())
+                
+                
+                Text("Notes")
+                    .foregroundColor(self.index == 0 ? .white : .black)
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 20)
+            .background(self.index == 0 ? Color("Color1") : Color.black.opacity(0.06))
+            .clipShape(Capsule())
+            .onTapGesture {
+                index = 0
+            }
+            
+            VStack(spacing: 12) {
+                
+                Image(systemName: "checklist")
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .padding()
+                    .background(Color.white)
+                    .clipShape(Circle())
+                
+                
+                Text("Tasks")
+                    .foregroundColor(self.index == 1 ? .white : .black)
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 20)
+            .background(self.index == 1 ? Color("Color1") : Color.black.opacity(0.06))
+            .clipShape(Capsule())
+            .onTapGesture {
+                index = 1
+            }
+            
+            VStack(spacing: 12) {
+                
+                Image(systemName: "pawprint.circle.fill")
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .padding()
+                    .background(Color.white)
+                    .clipShape(Circle())
+                
+                
+                Text("Routines")
+                    .foregroundColor(self.index == 2 ? .white : .black)
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 20)
+            .background(self.index == 2 ? Color("Color1") : Color.black.opacity(0.06))
+            .clipShape(Capsule())
+            .onTapGesture {
+                index = 2
+            }
+        }
+        .padding(.horizontal, 10)
+    }
+}

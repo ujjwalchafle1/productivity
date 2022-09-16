@@ -15,6 +15,7 @@
 		3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */; };
 		3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */; };
 		3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226228CA2C22009E4645 /* ToolboxView.swift */; };
+		3A746DBE28D4A29200D578F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DBD28D4A29200D578F1 /* HomeView.swift */; };
 		3AD4F98C28C24693002A2E5A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4F98B28C24693002A2E5A /* DashboardView.swift */; };
 		3AD4F99328C25AEC002A2E5A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4F99228C25AEC002A2E5A /* ProfileView.swift */; };
 		3AD4F99528C25AFB002A2E5A /* RoutinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4F99428C25AFB002A2E5A /* RoutinesView.swift */; };
@@ -47,6 +48,7 @@
 		3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysRemainingCard.swift; sourceTree = "<group>"; };
 		3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckInCard.swift; sourceTree = "<group>"; };
 		3A13226228CA2C22009E4645 /* ToolboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxView.swift; sourceTree = "<group>"; };
+		3A746DBD28D4A29200D578F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3AD4F98B28C24693002A2E5A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		3AD4F99228C25AEC002A2E5A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3AD4F99428C25AFB002A2E5A /* RoutinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinesView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				3AD4F98B28C24693002A2E5A /* DashboardView.swift */,
 				3AD4F99A28C639C4002A2E5A /* DashboardViewData.swift */,
 				3AD4F99C28C63A22002A2E5A /* DashboardViewModelAdapter.swift */,
+				3A746DBD28D4A29200D578F1 /* HomeView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A13225C28CA233B009E4645 /* Colors.swift in Sources */,
+				3A746DBE28D4A29200D578F1 /* HomeView.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				3AD4F98C28C24693002A2E5A /* DashboardView.swift in Sources */,
 				3AD4F99B28C639C4002A2E5A /* DashboardViewData.swift in Sources */,
