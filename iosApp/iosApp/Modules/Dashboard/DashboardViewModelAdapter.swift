@@ -38,7 +38,9 @@ extension DashboardViewModelAdapter {
             }
             viewData = .content(
                 .init(
-                    daysRemainingInYear: data.daysRemainingInYear
+                    todayDateLabel: data.todayDateLabel,
+                    daysRemainingInYear: data.daysRemainingInYear,
+                    daysLeftLabel: data.daysLeftLabel
                 )
             )
         default:

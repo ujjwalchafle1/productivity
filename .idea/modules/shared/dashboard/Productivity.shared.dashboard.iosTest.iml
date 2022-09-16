@@ -2,9 +2,12 @@
 <module external.linked.project.id=":shared:dashboard:iosTest" external.linked.project.path="$MODULE_DIR$/../../../../shared/dashboard" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Productivity.shared" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="4" platform="Common (experimental) " allPlatforms="JVM [1.8]/Native []/Native [general]" useProjectSettings="false" isTestModule="false" externalProjectId=":shared:dashboard" isHmppProject="true">
+      <configuration version="4" platform="Common (experimental) " allPlatforms="Native []/Native [ios_arm64]/Native [ios_simulator_arm64]/Native [ios_x64]" useProjectSettings="false" isTestModule="true" externalProjectId=":shared:dashboard" isHmppProject="true">
         <dependsOnModuleNames>:shared:dashboard:commonTest</dependsOnModuleNames>
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>
+          <externalSystemTestTask>iosSimulatorArm64Test|:shared:dashboard|iosSimulatorArm64</externalSystemTestTask>
+        </externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
           <option name="languageVersion" value="1.7" />
@@ -33,8 +36,9 @@
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - stdlib" level="project" />
-    <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" />
-    <orderEntry type="module" module-name="Productivity.shared.dashboard.commonTest" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosMain" scope="TEST" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - ARKit | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - AVFAudio | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - AVFoundation | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
@@ -183,9 +187,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - objc | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - posix | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.7.0 - zlib | [(ios_arm64, ios_simulator_arm64, ios_x64)]" level="project" />
-    <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
-    <orderEntry type="module" module-name="Productivity.shared.core.iosMain" />
-    <orderEntry type="module-library">
+    <orderEntry type="module" module-name="Productivity.shared.core.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="Productivity.shared.core.iosMain" scope="TEST" />
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-commonMain.klib!/" />
@@ -196,7 +200,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-concurrentMain.klib!/" />
@@ -207,7 +211,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeDarwinMain.klib!/" />
@@ -218,7 +222,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/" />
@@ -229,10 +233,10 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.4.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-commonMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-commonMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -240,10 +244,10 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.4.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -251,10 +255,10 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.4.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -262,8 +266,8 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.0" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.0" level="project" />
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/" />
@@ -274,7 +278,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/" />
@@ -285,7 +289,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/" />
@@ -296,10 +300,11 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.0" level="project" />
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.3.2">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-commonMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-commonMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -307,10 +312,10 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.3.2">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-nativeMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-nativeMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -318,7 +323,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.0" level="project" />
   </component>
+  <component name="TestModuleProperties" production-module="Productivity.shared.dashboard.iosMain" />
 </module>

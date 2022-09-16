@@ -2,7 +2,7 @@
 <module external.linked.project.id=":shared:dashboard:iosMain" external.linked.project.path="$MODULE_DIR$/../../../../shared/dashboard" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Productivity.shared" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="4" platform="Common (experimental) " allPlatforms="JVM [1.8]/Native []/Native [general]" useProjectSettings="false" isTestModule="false" externalProjectId=":shared:dashboard" isHmppProject="true">
+      <configuration version="4" platform="Common (experimental) " allPlatforms="Native []/Native [ios_arm64]/Native [ios_simulator_arm64]/Native [ios_x64]" useProjectSettings="false" isTestModule="false" externalProjectId=":shared:dashboard" isHmppProject="true">
         <dependsOnModuleNames>:shared:dashboard:commonMain</dependsOnModuleNames>
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
@@ -245,7 +245,7 @@
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.4.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/api/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -256,7 +256,7 @@
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.4.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/api/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -300,7 +300,7 @@
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.3.2">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-commonMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/api/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-commonMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -311,7 +311,7 @@
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.3.2">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-nativeMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/dashboard.shared.Productivity/iosMain/api/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-nativeMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>

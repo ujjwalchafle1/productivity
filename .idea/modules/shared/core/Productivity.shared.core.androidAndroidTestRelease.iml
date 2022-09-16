@@ -29,8 +29,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../shared/core/src/androidAndroidTestRelease" />
-    <content url="file://$MODULE_DIR$/../../../../shared/core/src/androidTestRelease/java" />
-    <content url="file://$MODULE_DIR$/../../../../shared/core/src/androidTestRelease/resources" />
+    <content url="file://$MODULE_DIR$/../../../../shared/core/src/androidTestRelease" />
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
@@ -54,6 +53,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4/f83eca53d0ca9fb7b4b21980e52354d443a3e354/kotlinx-coroutines-core-1.6.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.4.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../.gradle/kotlin/sourceSetMetadata/core.shared.Productivity/commonMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.4.0/f0c3654cc9c3f83ecf6520db15e3b485d50912ba/kotlinx-datetime-0.4.0-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

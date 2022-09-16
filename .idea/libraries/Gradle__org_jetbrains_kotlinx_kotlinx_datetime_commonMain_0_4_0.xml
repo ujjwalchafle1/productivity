@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.4.0" type="kotlin.common">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.Productivity/commonTest/api/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-commonMain.klib!/" />
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.Productivity/iosArm64Test/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-commonMain.klib!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

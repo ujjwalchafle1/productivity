@@ -258,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 				3A13225928CA2211009E4645 /* Colors.xcassets in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
-				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,19 +291,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD4F99328C25AEC002A2E5A /* ProfileView.swift in Sources */,
 				3A13225C28CA233B009E4645 /* Colors.swift in Sources */,
-				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
-				3AD4F98C28C24693002A2E5A /* DashboardView.swift in Sources */,
-				3AD4F99528C25AFB002A2E5A /* RoutinesView.swift in Sources */,
-				3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */,
-				3AD4F99D28C63A22002A2E5A /* DashboardViewModelAdapter.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				3AD4F98C28C24693002A2E5A /* DashboardView.swift in Sources */,
+				3AD4F99B28C639C4002A2E5A /* DashboardViewData.swift in Sources */,
+				3AD4F99D28C63A22002A2E5A /* DashboardViewModelAdapter.swift in Sources */,
+				3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */,
+				3AD4F99928C25B2D002A2E5A /* NotesListView.swift in Sources */,
+				3AD4F99328C25AEC002A2E5A /* ProfileView.swift in Sources */,
+				3AD4F99528C25AFB002A2E5A /* RoutinesView.swift in Sources */,
 				3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */,
 				3AD4F99728C25B1C002A2E5A /* TaskListView.swift in Sources */,
-				3AD4F99928C25B2D002A2E5A /* NotesListView.swift in Sources */,
 				3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */,
-				3AD4F99B28C639C4002A2E5A /* DashboardViewData.swift in Sources */,
+				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

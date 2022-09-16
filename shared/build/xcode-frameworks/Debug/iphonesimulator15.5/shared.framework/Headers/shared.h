@@ -161,7 +161,6 @@ __attribute__((swift_name("DashboardViewModel")))
 @interface SharedDashboardViewModel : SharedBaseViewModel<SharedViewDataResource<SharedDashboardViewData *> *>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (int32_t)daysUntilNewYear __attribute__((swift_name("daysUntilNewYear()")));
 - (void)start __attribute__((swift_name("start()")));
 @property (readonly) id<SharedStateFlow> viewData __attribute__((swift_name("viewData")));
 @end;
@@ -191,15 +190,19 @@ __attribute__((swift_name("BaseViewData")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DashboardViewData")))
 @interface SharedDashboardViewData : SharedBaseViewData
-- (instancetype)initWithDaysRemainingInYear:(NSString *)daysRemainingInYear __attribute__((swift_name("init(daysRemainingInYear:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTodayDateLabel:(NSString *)todayDateLabel daysRemainingInYear:(NSString *)daysRemainingInYear daysLeftLabel:(NSString *)daysLeftLabel __attribute__((swift_name("init(todayDateLabel:daysRemainingInYear:daysLeftLabel:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (SharedDashboardViewData *)doCopyDaysRemainingInYear:(NSString *)daysRemainingInYear __attribute__((swift_name("doCopy(daysRemainingInYear:)")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (SharedDashboardViewData *)doCopyTodayDateLabel:(NSString *)todayDateLabel daysRemainingInYear:(NSString *)daysRemainingInYear daysLeftLabel:(NSString *)daysLeftLabel __attribute__((swift_name("doCopy(todayDateLabel:daysRemainingInYear:daysLeftLabel:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *daysLeftLabel __attribute__((swift_name("daysLeftLabel")));
 @property (readonly) NSString *daysRemainingInYear __attribute__((swift_name("daysRemainingInYear")));
+@property (readonly) NSString *todayDateLabel __attribute__((swift_name("todayDateLabel")));
 @end;
 
 __attribute__((swift_name("ViewDataResource")))

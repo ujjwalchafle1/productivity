@@ -2,11 +2,29 @@
 <module external.linked.project.id=":shared:androidTest" external.linked.project.path="$MODULE_DIR$/../../../shared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="4" platform="Common (experimental) " allPlatforms="JVM [1.8]/Native []/Native [general]" useProjectSettings="false" isTestModule="false" externalProjectId=":shared" isHmppProject="true">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" isTestModule="true" externalProjectId=":shared" isHmppProject="true" pureKotlinSourceFolders="$MODULE_DIR$/../../../shared/src/androidDebug/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/debug/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/debug/java;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/androidDebugAndroidTest/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/androidDebugUnitTest/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/androidRelease/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/release/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/release/java;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/androidReleaseUnitTest/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/iosArm64Main/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/iosArm64Main/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/iosSimulatorArm64Main/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/iosSimulatorArm64Main/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/iosX64Main/kotlin;/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/src/iosX64Main/kotlin">
         <dependsOnModuleNames>:shared:commonTest</dependsOnModuleNames>
-        <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
-        <compilerSettings />
+        <sourceSets>
+          <sourceSet>Productivity.shared.commonTest</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
         <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../shared/build/tmp/kotlin-classes/debugAndroidTest" />
+          <option name="classpath" value="$MODULE_DIR$/../../../shared/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.7.0/8d0259795071f612031901db4fcbb93cf24f25b4/kotlin-test-junit-1.7.0.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.7.0/970db9954386d1bb9b6666e3e49458cc8cef17b7/kotlin-test-1.7.0.jar:/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/dashboard/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/ujjwalchafle/Documents/Workspace-Personal/ProductivityApp/shared/core/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.0/362da0b4951ed79a6591743a7fddcfb8c73809f6/kotlin-stdlib-jdk8-1.7.0.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.0/fbeaa8fa63cbab09c547083a449097be6660a9a/kotlin-stdlib-jdk7-1.7.0.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.0/a5f42c684ad9003160ef0d0f693ecf0ba7b13549/kotlin-stdlib-1.7.0.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ujjwalchafle/.gradle/caches/transforms-3/e9d53fdf7c8864514cfea56655b09816/transformed/protolite-well-known-types-18.0.0-api.jar:/Users/ujjwalchafle/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-javalite/3.14.0/1f3dcd6a80126749748b85e822c09428468423b3/protobuf-javalite-3.14.0.jar:/Users/ujjwalchafle/Library/Android/sdk/platforms/android-32/android.jar:/Users/ujjwalchafle/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="shared_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../shared/build/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../../shared/build/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../../shared/build/intermediates/compile_library_classes_jar/debug/classes.jar" />
+            </array>
+          </option>
           <option name="languageVersion" value="1.7" />
           <option name="apiVersion" value="1.7" />
           <option name="pluginOptions">
@@ -23,6 +41,9 @@
             </array>
           </option>
           <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
         </compilerArguments>
       </configuration>
     </facet>
@@ -52,54 +73,21 @@
     <content url="file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../shared/build/generated/res/rs/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../shared/build/generated/source/buildConfig/androidTest/debug" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/aidl" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/assets" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/res" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/rs" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/shaders" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/aidl" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/assets" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/res" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/rs" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/shaders" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/androidTest">
-      <sourceFolder url="file://$MODULE_DIR$/../../../shared/src/androidTest/kotlin" type="kotlin-source" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTest" />
+    <content url="file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug" />
+    <content url="file://$MODULE_DIR$/../../../shared/src/androidTest" />
     <content url="file://$MODULE_DIR$/../../../shared/src/androidTestDebug" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/test/java" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/test/kotlin" />
-    <content url="file://$MODULE_DIR$/../../../shared/src/test/resources" />
     <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Productivity.shared.commonMain" />
-    <orderEntry type="module" module-name="Productivity.shared.commonTest" />
+    <orderEntry type="module" module-name="Productivity.shared.commonTest" exported="" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.main" scope="TEST" />
     <orderEntry type="module" module-name="Productivity.shared.core.main" scope="TEST" />
-    <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" />
-    <orderEntry type="module" module-name="Productivity.shared.dashboard.iosMain" />
-    <orderEntry type="module" module-name="Productivity.shared.core.commonMain" />
-    <orderEntry type="module" module-name="Productivity.shared.core.iosMain" />
     <orderEntry type="module" module-name="Productivity.shared.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.7.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.7.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.3.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.3.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.protobuf:protobuf-javalite:3.14.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:protolite-well-known-types:18.0.0@aar" level="project" />

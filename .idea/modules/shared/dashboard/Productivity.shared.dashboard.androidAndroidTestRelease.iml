@@ -29,8 +29,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../shared/dashboard/src/androidAndroidTestRelease" />
-    <content url="file://$MODULE_DIR$/../../../../shared/dashboard/src/androidTestRelease/java" />
-    <content url="file://$MODULE_DIR$/../../../../shared/dashboard/src/androidTestRelease/resources" />
+    <content url="file://$MODULE_DIR$/../../../../shared/dashboard/src/androidTestRelease" />
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Productivity.shared.dashboard.commonMain" />

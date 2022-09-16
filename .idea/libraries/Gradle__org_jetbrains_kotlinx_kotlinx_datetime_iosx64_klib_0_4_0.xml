@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosx64:klib:0.4.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-iosx64/0.4.0/fdd7df96316990be78626eb13f6e12cf6611b18c/kotlinx-datetime.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-iosx64/0.4.0/5cb0e03d91bde57a51b73e026582300d07ed6304/kotlinx-datetime-iosx64-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

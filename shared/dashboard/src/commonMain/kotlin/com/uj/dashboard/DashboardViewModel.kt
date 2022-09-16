@@ -19,14 +19,20 @@ class DashboardViewModel : BaseViewModel<ViewDataResource<DashboardViewData>>() 
             _viewData.emit(
                 ViewDataResource.Data(
                     DashboardViewData(
-                        daysRemainingInYear = "${daysUntilNewYear()}"
+                        todayDateLabel = "${Clock.System.todayAt(TimeZone.currentSystemDefault())}",
+                        daysRemainingInYear = "${daysUntilNewYear()}",
+                        daysLeftLabel = "days left in ${currentYear()}"
                     )
                 )
             )
         }
     }
 
-    fun daysUntilNewYear(): Int {
+    private fun currentYear(): String {
+        return "${Clock.System.todayAt(TimeZone.currentSystemDefault()).year}"
+    }
+
+    private fun daysUntilNewYear(): Int {
         val today = Clock.System.todayAt(TimeZone.currentSystemDefault())
         val closestNewYear = LocalDate(today.year + 1, 1, 1)
         return today.daysUntil(closestNewYear)

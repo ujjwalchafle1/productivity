@@ -14,12 +14,14 @@ struct SelfCheckInCard: View {
             Text("🧘🏻 Today's self check-in")
                 .foregroundColor(Color.secondaryColor)
                 .padding()
+                .shadow(radius: 0.5)
             Spacer()
             Image(systemName: "chevron.forward")
                 .padding()
         }
         .background(Color.secondaryBackground)
         .cornerRadius(10)
+        .shadow(radius: 2)
     }
 }
 

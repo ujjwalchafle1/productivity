@@ -35,6 +35,7 @@ struct ToolboxView: View {
         .frame(maxWidth: .infinity)
         .background(Color.secondaryBackground)
         .cornerRadius(10)
+        .shadow(radius: 2)
     }
 }
 

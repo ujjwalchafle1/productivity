@@ -17,6 +17,8 @@ enum DashboardViewData {
 
 extension DashboardViewData {
     struct Content {
+        let todayDateLabel: String
         let daysRemainingInYear: String
+        let daysLeftLabel: String
     }
 }

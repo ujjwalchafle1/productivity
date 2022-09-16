@@ -27,7 +27,11 @@ struct DashboardView: View {
                         Color.background.edgesIgnoringSafeArea(.all)
                         
                         VStack(alignment: .leading, spacing: 20)  {
-                            DaysRemainingCard(title: viewData.daysRemainingInYear)
+                            DaysRemainingCard(
+                                todaysDate: viewData.todayDateLabel,
+                                remainingDays: viewData.daysRemainingInYear,
+                                daysLeftLabel: viewData.daysLeftLabel
+                            )
                             
                             SelfCheckInCard()
                             
