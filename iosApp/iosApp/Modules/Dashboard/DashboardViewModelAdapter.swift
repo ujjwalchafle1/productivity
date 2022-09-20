@@ -38,9 +38,13 @@ extension DashboardViewModelAdapter {
             }
             viewData = .content(
                 .init(
-                    todayDateLabel: data.todayDateLabel,
+                    greetingLabel: data.greetingLabel,
+                    currentDateLabel: data.currentDateLabel,
                     daysRemainingInYear: data.daysRemainingInYear,
-                    daysLeftLabel: data.daysLeftLabel
+                    daysLeftLabel: data.daysLeftLabel,
+                    selfCheckInBtnLabel: data.selfCheckInBtnLabel,
+                    toolboxHeader: data.toolboxHeader,
+                    toolboxItems: [.init(icon: "", name: ""), .init(icon: "", name: "")]
                 )
             )
         default:

@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedBaseViewModel<ViewData>, SharedDashboardViewData, SharedViewDataResource<T>, SharedBaseViewData, SharedViewDataResourceData<T>, SharedViewDataResourceError<T>, SharedConstants, SharedResource<T>, SharedKotlinThrowable, SharedResourceError<T>, SharedResourceLoading<T>, SharedResourceSuccess<T>, SharedEvent<__covariant T>, SharedKotlinCancellationException, SharedJobSupport, SharedCoroutineStart, SharedCoroutineDispatcher, SharedKotlinAbstractCoroutineContextElement, SharedCoroutineDispatcherKey, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedCoroutineExceptionHandlerKey, SharedCoroutineNameKey, SharedCoroutineName, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedDispatchers, SharedMainCoroutineDispatcher, SharedGlobalScope, SharedJobKey, SharedNonCancellable, SharedNonDisposableHandle, SharedKotlinIllegalStateException, SharedTimeoutCancellationException, SharedBufferOverflow, SharedChannelFactory, SharedKotlinNoSuchElementException, SharedSharingCommand, SharedSharingStartedCompanion, SharedChannelFlow<T>, SharedAtomicDesc, SharedLockFreeLinkedListNodePrepareOp, SharedAtomicOp<__contravariant T>, SharedOpDescriptor, SharedLockFreeLinkedListNode, SharedLockFreeLinkedListNodeAddLastDesc<T>, SharedLockFreeLinkedListNodeRemoveFirstDesc<T>, SharedLockFreeLinkedListNodeAbstractAtomicDesc, SharedAtomicfuSynchronizedObjectLockState, SharedKotlinAtomicReference<T>, SharedAtomicfuSynchronizedObject, SharedThreadSafeHeap<T>, SharedKotlinPair<__covariant A, __covariant B>, SharedKotlinIntIterator, SharedKotlinIntArray, SharedKotlinLongIterator, SharedKotlinLongArray, SharedKotlinIntProgressionCompanion, SharedKotlinIntProgression, SharedKotlinIntRangeCompanion, SharedKotlinIntRange, SharedKotlinLongProgressionCompanion, SharedKotlinLongProgression, SharedKotlinLongRangeCompanion, SharedKotlinLongRange, SharedKotlinNothing, SharedCloseableCoroutineDispatcher, SharedAtomicfuSynchronizedObjectStatus;
+@class SharedBaseViewModel<ViewData>, SharedDashboardViewData, SharedViewDataResource<T>, SharedBaseViewData, SharedToolboxItem, SharedViewDataResourceData<T>, SharedViewDataResourceError<T>, SharedConstants, SharedResource<T>, SharedKotlinThrowable, SharedResourceError<T>, SharedResourceLoading<T>, SharedResourceSuccess<T>, SharedEvent<__covariant T>, SharedKotlinCancellationException, SharedJobSupport, SharedCoroutineStart, SharedCoroutineDispatcher, SharedKotlinAbstractCoroutineContextElement, SharedCoroutineDispatcherKey, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedCoroutineExceptionHandlerKey, SharedCoroutineNameKey, SharedCoroutineName, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedDispatchers, SharedMainCoroutineDispatcher, SharedGlobalScope, SharedJobKey, SharedNonCancellable, SharedNonDisposableHandle, SharedKotlinIllegalStateException, SharedTimeoutCancellationException, SharedBufferOverflow, SharedChannelFactory, SharedKotlinNoSuchElementException, SharedSharingCommand, SharedSharingStartedCompanion, SharedChannelFlow<T>, SharedAtomicDesc, SharedLockFreeLinkedListNodePrepareOp, SharedAtomicOp<__contravariant T>, SharedOpDescriptor, SharedLockFreeLinkedListNode, SharedLockFreeLinkedListNodeAddLastDesc<T>, SharedLockFreeLinkedListNodeRemoveFirstDesc<T>, SharedLockFreeLinkedListNodeAbstractAtomicDesc, SharedAtomicfuSynchronizedObjectLockState, SharedKotlinAtomicReference<T>, SharedAtomicfuSynchronizedObject, SharedThreadSafeHeap<T>, SharedKotlinPair<__covariant A, __covariant B>, SharedKotlinIntIterator, SharedKotlinIntArray, SharedKotlinLongIterator, SharedKotlinLongArray, SharedKotlinIntProgressionCompanion, SharedKotlinIntProgression, SharedKotlinIntRangeCompanion, SharedKotlinIntRange, SharedKotlinLongProgressionCompanion, SharedKotlinLongProgression, SharedKotlinLongRangeCompanion, SharedKotlinLongRange, SharedKotlinNothing, SharedCloseableCoroutineDispatcher, SharedAtomicfuSynchronizedObjectStatus;
 
 @protocol SharedCoroutineScope, SharedStateFlow, SharedChildHandle, SharedChildJob, SharedDisposableHandle, SharedJob, SharedKotlinSequence, SharedSelectClause0, SharedKotlinCoroutineContextKey, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContext, SharedParentJob, SharedSelectInstance, SharedKotlinSuspendFunction0, SharedKotlinContinuation, SharedKotlinSuspendFunction1, SharedKotlinContinuationInterceptor, SharedRunnable, SharedSelectClause1, SharedDeferred, SharedKotlinComparable, SharedCancellableContinuation, SharedCopyableThrowable, SharedReceiveChannel, SharedSelectClause2, SharedSendChannel, SharedChannelIterator, SharedBroadcastChannel, SharedFlowCollector, SharedFlow, SharedSharedFlow, SharedMutableSharedFlow, SharedSharingStarted, SharedFusibleFlow, SharedProducerScope, SharedMainDispatcherFactory, SharedKotlinIterator, SharedKotlinIterable, SharedKotlinClosedRange, SharedPersistedRepositoryMapper, SharedRepositoryMapper, SharedCompletableJob, SharedCompletableDeferred, SharedCoroutineExceptionHandler, SharedChannel, SharedKotlinSuspendFunction2, SharedKotlinSuspendFunction3, SharedMutableStateFlow, SharedKotlinSuspendFunction5, SharedKotlinSuspendFunction4, SharedKotlinSuspendFunction6, SharedSelectBuilder, SharedMutex, SharedSemaphore, SharedKotlinFunction;
 
@@ -190,19 +190,41 @@ __attribute__((swift_name("BaseViewData")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DashboardViewData")))
 @interface SharedDashboardViewData : SharedBaseViewData
-- (instancetype)initWithTodayDateLabel:(NSString *)todayDateLabel daysRemainingInYear:(NSString *)daysRemainingInYear daysLeftLabel:(NSString *)daysLeftLabel __attribute__((swift_name("init(todayDateLabel:daysRemainingInYear:daysLeftLabel:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithGreetingLabel:(NSString *)greetingLabel currentDateLabel:(NSString *)currentDateLabel daysRemainingInYear:(NSString *)daysRemainingInYear daysLeftLabel:(NSString *)daysLeftLabel selfCheckInBtnLabel:(NSString *)selfCheckInBtnLabel toolboxHeader:(NSString *)toolboxHeader toolboxItems:(NSArray<SharedToolboxItem *> *)toolboxItems __attribute__((swift_name("init(greetingLabel:currentDateLabel:daysRemainingInYear:daysLeftLabel:selfCheckInBtnLabel:toolboxHeader:toolboxItems:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (SharedDashboardViewData *)doCopyTodayDateLabel:(NSString *)todayDateLabel daysRemainingInYear:(NSString *)daysRemainingInYear daysLeftLabel:(NSString *)daysLeftLabel __attribute__((swift_name("doCopy(todayDateLabel:daysRemainingInYear:daysLeftLabel:)")));
+- (NSString *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSArray<SharedToolboxItem *> *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (SharedDashboardViewData *)doCopyGreetingLabel:(NSString *)greetingLabel currentDateLabel:(NSString *)currentDateLabel daysRemainingInYear:(NSString *)daysRemainingInYear daysLeftLabel:(NSString *)daysLeftLabel selfCheckInBtnLabel:(NSString *)selfCheckInBtnLabel toolboxHeader:(NSString *)toolboxHeader toolboxItems:(NSArray<SharedToolboxItem *> *)toolboxItems __attribute__((swift_name("doCopy(greetingLabel:currentDateLabel:daysRemainingInYear:daysLeftLabel:selfCheckInBtnLabel:toolboxHeader:toolboxItems:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *currentDateLabel __attribute__((swift_name("currentDateLabel")));
 @property (readonly) NSString *daysLeftLabel __attribute__((swift_name("daysLeftLabel")));
 @property (readonly) NSString *daysRemainingInYear __attribute__((swift_name("daysRemainingInYear")));
-@property (readonly) NSString *todayDateLabel __attribute__((swift_name("todayDateLabel")));
+@property NSString *greetingLabel __attribute__((swift_name("greetingLabel")));
+@property NSString *selfCheckInBtnLabel __attribute__((swift_name("selfCheckInBtnLabel")));
+@property NSString *toolboxHeader __attribute__((swift_name("toolboxHeader")));
+@property (readonly) NSArray<SharedToolboxItem *> *toolboxItems __attribute__((swift_name("toolboxItems")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ToolboxItem")))
+@interface SharedToolboxItem : SharedBase
+- (instancetype)initWithImage:(NSString *)image name:(NSString *)name __attribute__((swift_name("init(image:name:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (SharedToolboxItem *)doCopyImage:(NSString *)image name:(NSString *)name __attribute__((swift_name("doCopy(image:name:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString *image __attribute__((swift_name("image")));
+@property NSString *name __attribute__((swift_name("name")));
 @end;
 
 __attribute__((swift_name("ViewDataResource")))

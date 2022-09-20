@@ -11,8 +11,8 @@
           <sourceSet>Productivity.shared.commonTest</sourceSet>
           <sourceSet>Productivity.shared.iosTest</sourceSet>
           <sourceSet>Productivity.shared.iosArm64Main</sourceSet>
-          <sourceSet>Productivity.shared.iosMain</sourceSet>
           <sourceSet>Productivity.shared.commonMain</sourceSet>
+          <sourceSet>Productivity.shared.iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />

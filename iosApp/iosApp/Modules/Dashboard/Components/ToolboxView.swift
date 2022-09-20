@@ -35,7 +35,7 @@ struct ToolboxView: View {
         .frame(maxWidth: .infinity)
         .background(Color.secondaryBackground)
         .cornerRadius(10)
-        .shadow(radius: 2)
+        .shadow(radius: 5)
     }
 }
 
@@ -57,7 +57,7 @@ struct CardView: View {
                     .clipShape(Circle())
                 
                 
-                Text("Notes")
+                Text.Subtitle1("Notes")
                     .foregroundColor(self.index == 0 ? .white : .black)
             }
             .padding(.horizontal, 10)
@@ -78,7 +78,7 @@ struct CardView: View {
                     .clipShape(Circle())
                 
                 
-                Text("Tasks")
+                Text.Subtitle1("Tasks")
                     .foregroundColor(self.index == 1 ? .white : .black)
             }
             .padding(.horizontal, 10)
@@ -99,7 +99,7 @@ struct CardView: View {
                     .clipShape(Circle())
                 
                 
-                Text("Routines")
+                Text.Subtitle1("Routines")
                     .foregroundColor(self.index == 2 ? .white : .black)
             }
             .padding(.horizontal, 10)

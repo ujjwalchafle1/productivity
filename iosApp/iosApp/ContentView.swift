@@ -4,7 +4,7 @@ struct ContentView: View {
 
 	var body: some View {
         TabView {
-            DashboardView()
+            HomeView()
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")

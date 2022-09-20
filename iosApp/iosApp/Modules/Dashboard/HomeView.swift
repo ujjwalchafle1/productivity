@@ -9,13 +9,31 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject private var viewModelAdapter: DashboardViewModelAdapter
+    
+    init(viewModelAdapter: DashboardViewModelAdapter = DashboardViewModelAdapter()) {
+        _viewModelAdapter = StateObject(wrappedValue: viewModelAdapter)
+    }
+    
     var body: some View {
+        VStack {
+            switch viewModelAdapter.viewData {
+            case .empty:
+                EmptyView()
+            case .content(let viewData):
+                content(from: viewData)
+            }
+        }
+        .onAppear {
+            viewModelAdapter.present()
+        }
+    }
+    
+    func content(from viewData: DashboardViewData.Content) -> some View {
         VStack(spacing: 0) {
             HStack {
                 
-                Text("Good afternoon!")
-                    .font(.title)
-                    .foregroundColor(.white)
+                Text.Headline4(viewData.greetingLabel, color: .white)
                     .padding(.top, 32)
                 
                 Spacer()
@@ -35,23 +53,20 @@ struct HomeView: View {
             .padding(.bottom, 80)
             .background(Color("Color1"))
             .clipShape(Corners(corner: [.bottomRight], size: CGSize(width: 55, height: 55)))
+            .shadow(radius: 2)
             
             HStack {
                 
                 VStack {
-                                        
+                    
                     HStack {
                         
                         VStack(alignment: .leading, spacing: 5) {
                             
-                            Text("123")
-                                .font(.system(size: 50))
-                                .fontWeight(.bold)
+                            Text.Headline1(viewData.daysRemainingInYear)
                             
-                            Text("days left in \n2022")
-                                .font(.system(size: 35))
+                            Text.Headline4(viewData.daysLeftLabel)
                         }
-                        .foregroundColor(.black)
                         
                         Spacer()
                     }
@@ -66,13 +81,15 @@ struct HomeView: View {
                 Spacer()
             }
             .padding(.top, -67)
-
+            .shadow(radius: 2)
+            
             ZStack {
                 
                 Color("Color2")
                 
                 ScrollView(.vertical, showsIndicators: false) {
                     
+                    // Self check-in view
                     Button {
                         //
                     } label: {
@@ -81,37 +98,32 @@ struct HomeView: View {
                             HStack {
                                 Text("🧘🏻")
                                     .font(.system(size: 35))
-                                Text("Today's self check-in")
-                                    .font(.system(size: 20))
-                                    .fontWeight(.bold)
+                                Text.Headline5(viewData.selfCheckInBtnLabel, color: Color("Color1"))
                                     .minimumScaleFactor(0.2)
-                        
+                                
                             }
                             
                             Spacer()
                             Image(systemName: "chevron.forward")
                                 .font(.title)
-    
+                                .foregroundColor(Color("Color1"))
+                            
                         }
                         .padding()
                         .padding(.horizontal)
-                        .foregroundColor(Color("Color1"))
-
                     }
+                    .padding(.top, 20)
                     
                     VStack {
                         HStack {
-                            Text("Your Toolbox")
-                                .fontWeight(.bold)
-                                .font(.system(size: 20))
+                            Text.Headline5(viewData.toolboxHeader)
                             
                             Spacer()
                         }
                         .foregroundColor(.black)
                         .padding(.leading, 25)
-                        .padding(.top, 25)
                         .padding(.trailing)
-
+                        
                         CardView()
                         
                         Spacer()

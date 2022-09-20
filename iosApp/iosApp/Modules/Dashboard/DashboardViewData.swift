@@ -17,8 +17,23 @@ enum DashboardViewData {
 
 extension DashboardViewData {
     struct Content {
-        let todayDateLabel: String
+        let greetingLabel: String
+        let currentDateLabel: String
         let daysRemainingInYear: String
         let daysLeftLabel: String
+        
+        // Self check-in section
+        let selfCheckInBtnLabel: String
+        
+        // Toolbox section
+        let toolboxHeader:String
+        let toolboxItems: [ToolboxItem]
+        
+        
+        struct ToolboxItem {
+            let icon: String
+            let name: String
+        }
     }
+    
 }
