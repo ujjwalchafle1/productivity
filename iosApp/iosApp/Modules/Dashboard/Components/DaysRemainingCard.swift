@@ -23,7 +23,7 @@ struct DaysRemainingCard: View {
                             .shadow(radius: 10)
                     }
                 
-                Text.Headline5("82 Days remaining in this year.")
+                Text.Body2("There are still 82 days remaining in this year. \nKeep it up! \nSmash all your Goals!")
                     .padding()
                 
                 Spacer()

@@ -13,27 +13,10 @@ struct SleepTrackerDetailsView: View {
     @State var sleepQuality: String = ""
     @State var bedTime = Date()
     @State var wakeupTime = Date()
-
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-//                HStack {
-//                    Circle()
-//                        .foregroundColor(.gray.opacity(0.1))
-//                        .overlay {
-//                            Image(systemName: "alarm.fill")
-//                                .font(.title)
-//                        }
-//                        .frame(width: 70, height: 70)
-//                        .padding()
-//
-//
-//                    Text.Headline5("Track Sleep")
-//                        .padding(.horizontal)
-//
-//                    Spacer()
-//                }
-                
                 HStack {
                     VStack(spacing: 10) {
                         HStack {
@@ -41,16 +24,15 @@ struct SleepTrackerDetailsView: View {
                                 .font(.title2)
                             
                             Text.Headline5("Sleep")
-
+                            
                         }
                         HStack {
-
                             DatePicker("", selection: $bedTime, displayedComponents: .hourAndMinute)
                                 .offset(x: -35)
-
+                            
                         }
                     }
-
+                    
                     
                     Spacer()
                     
@@ -192,9 +174,6 @@ struct SleepTrackerDetailsView: View {
                 Spacer()
             }
             .padding()
-
-            .navigationTitle("Sleep Tracking")
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

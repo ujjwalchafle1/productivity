@@ -10,13 +10,11 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
-		3A01485328F0830100B2F6A0 /* SelfCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01485228F0830100B2F6A0 /* SelfCheckInView.swift */; };
 		3A13225928CA2211009E4645 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A13225828CA2211009E4645 /* Colors.xcassets */; };
 		3A13225C28CA233B009E4645 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13225B28CA233B009E4645 /* Colors.swift */; };
 		3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */; };
 		3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */; };
 		3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226228CA2C22009E4645 /* ToolboxView.swift */; };
-		3A323F2B28EDF37000CFEF40 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A323F2A28EDF37000CFEF40 /* CheckInView.swift */; };
 		3A60CCCF28F4757E00DBA776 /* DailyJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */; };
 		3A60CCD628F56AD100DBA776 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */; };
 		3A60CCD728F56AD100DBA776 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */; };
@@ -24,6 +22,12 @@
 		3A60CCD928F56AD100DBA776 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD428F56AD100DBA776 /* Comfortaa-Regular.ttf */; };
 		3A60CCDA28F56AD100DBA776 /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD528F56AD100DBA776 /* Comfortaa-SemiBold.ttf */; };
 		3A60CCDD28F5B10800DBA776 /* SleepTrackerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */; };
+		3A60CCFF28F861D400DBA776 /* SleepTrackingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CCFE28F861D400DBA776 /* SleepTrackingCard.swift */; };
+		3A60CD0128F8620600DBA776 /* RoutinesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0028F8620600DBA776 /* RoutinesCard.swift */; };
+		3A60CD0328F8622100DBA776 /* MoodTrackingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0228F8622100DBA776 /* MoodTrackingCard.swift */; };
+		3A60CD0528F8624B00DBA776 /* RecordJournalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0428F8624B00DBA776 /* RecordJournalCard.swift */; };
+		3A60CD0728F8627A00DBA776 /* RecordJournalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0628F8627A00DBA776 /* RecordJournalDetailsView.swift */; };
+		3A60CD0A28F864BE00DBA776 /* SelfCheckinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0928F864BE00DBA776 /* SelfCheckinListView.swift */; };
 		3A746DBE28D4A29200D578F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DBD28D4A29200D578F1 /* HomeView.swift */; };
 		3A746DC328D9EF0000D578F1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A746DC228D9EF0000D578F1 /* OpenSans-Bold.ttf */; };
 		3A746DC528D9EF1500D578F1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A746DC428D9EF1500D578F1 /* OpenSans-Light.ttf */; };
@@ -35,7 +39,6 @@
 		3A746DD228D9F36D00D578F1 /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DD128D9F36D00D578F1 /* Headline.swift */; };
 		3A746DD428D9F4AB00D578F1 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DD328D9F4AB00D578F1 /* Body.swift */; };
 		3A746DD628D9F53F00D578F1 /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DD528D9F53F00D578F1 /* Subtitle.swift */; };
-		3A8D2CA628E34FF2008B469A /* DailyCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D2CA528E34FF2008B469A /* DailyCheckInView.swift */; };
 		3AD4F98C28C24693002A2E5A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4F98B28C24693002A2E5A /* DashboardView.swift */; };
 		3AD4F99328C25AEC002A2E5A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4F99228C25AEC002A2E5A /* ProfileView.swift */; };
 		3AD4F99528C25AFB002A2E5A /* RoutinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4F99428C25AFB002A2E5A /* RoutinesView.swift */; };
@@ -63,13 +66,11 @@
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
-		3A01485228F0830100B2F6A0 /* SelfCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckInView.swift; sourceTree = "<group>"; };
 		3A13225828CA2211009E4645 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3A13225B28CA233B009E4645 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysRemainingCard.swift; sourceTree = "<group>"; };
 		3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckInCard.swift; sourceTree = "<group>"; };
 		3A13226228CA2C22009E4645 /* ToolboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxView.swift; sourceTree = "<group>"; };
-		3A323F2A28EDF37000CFEF40 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 		3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJournalView.swift; sourceTree = "<group>"; };
 		3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
 		3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
@@ -77,6 +78,12 @@
 		3A60CCD428F56AD100DBA776 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
 		3A60CCD528F56AD100DBA776 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
 		3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerDetailsView.swift; sourceTree = "<group>"; };
+		3A60CCFE28F861D400DBA776 /* SleepTrackingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackingCard.swift; sourceTree = "<group>"; };
+		3A60CD0028F8620600DBA776 /* RoutinesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinesCard.swift; sourceTree = "<group>"; };
+		3A60CD0228F8622100DBA776 /* MoodTrackingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackingCard.swift; sourceTree = "<group>"; };
+		3A60CD0428F8624B00DBA776 /* RecordJournalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordJournalCard.swift; sourceTree = "<group>"; };
+		3A60CD0628F8627A00DBA776 /* RecordJournalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordJournalDetailsView.swift; sourceTree = "<group>"; };
+		3A60CD0928F864BE00DBA776 /* SelfCheckinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckinListView.swift; sourceTree = "<group>"; };
 		3A746DBD28D4A29200D578F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3A746DC228D9EF0000D578F1 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		3A746DC428D9EF1500D578F1 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
@@ -88,7 +95,6 @@
 		3A746DD128D9F36D00D578F1 /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
 		3A746DD328D9F4AB00D578F1 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 		3A746DD528D9F53F00D578F1 /* Subtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
-		3A8D2CA528E34FF2008B469A /* DailyCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckInView.swift; sourceTree = "<group>"; };
 		3AD4F98B28C24693002A2E5A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		3AD4F99228C25AEC002A2E5A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3AD4F99428C25AFB002A2E5A /* RoutinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinesView.swift; sourceTree = "<group>"; };
@@ -174,6 +180,13 @@
 			path = Comfortaa;
 			sourceTree = "<group>";
 		};
+		3A60CD0828F8646100DBA776 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		3A746DBF28D9EEA800D578F1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,11 +209,14 @@
 		3A8D2CA428E34FAC008B469A /* DailyLogger */ = {
 			isa = PBXGroup;
 			children = (
-				3A8D2CA528E34FF2008B469A /* DailyCheckInView.swift */,
-				3A323F2A28EDF37000CFEF40 /* CheckInView.swift */,
-				3A01485228F0830100B2F6A0 /* SelfCheckInView.swift */,
 				3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */,
 				3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */,
+				3A60CCFE28F861D400DBA776 /* SleepTrackingCard.swift */,
+				3A60CD0028F8620600DBA776 /* RoutinesCard.swift */,
+				3A60CD0228F8622100DBA776 /* MoodTrackingCard.swift */,
+				3A60CD0428F8624B00DBA776 /* RecordJournalCard.swift */,
+				3A60CD0628F8627A00DBA776 /* RecordJournalDetailsView.swift */,
+				3A60CD0928F864BE00DBA776 /* SelfCheckinListView.swift */,
 			);
 			path = DailyLogger;
 			sourceTree = "<group>";
@@ -208,6 +224,7 @@
 		3AD4F98A28C2466E002A2E5A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3A60CD0828F8646100DBA776 /* New Group */,
 				3A8D2CA428E34FAC008B469A /* DailyLogger */,
 				3AD4F99128C25AD6002A2E5A /* Profile */,
 				3AD4F99028C25ACD002A2E5A /* Routines */,
@@ -406,28 +423,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A60CCCF28F4757E00DBA776 /* DailyJournalView.swift in Sources */,
-				3A8D2CA628E34FF2008B469A /* DailyCheckInView.swift in Sources */,
 				3A13225C28CA233B009E4645 /* Colors.swift in Sources */,
 				3A746DCF28D9F07C00D578F1 /* Fonts.swift in Sources */,
 				3A746DBE28D4A29200D578F1 /* HomeView.swift in Sources */,
+				3A60CD0A28F864BE00DBA776 /* SelfCheckinListView.swift in Sources */,
 				3A746DD228D9F36D00D578F1 /* Headline.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				3AD4F98C28C24693002A2E5A /* DashboardView.swift in Sources */,
 				3AD4F99B28C639C4002A2E5A /* DashboardViewData.swift in Sources */,
 				3AD4F99D28C63A22002A2E5A /* DashboardViewModelAdapter.swift in Sources */,
 				3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */,
-				3A01485328F0830100B2F6A0 /* SelfCheckInView.swift in Sources */,
 				3AD4F99928C25B2D002A2E5A /* NotesListView.swift in Sources */,
 				3A60CCDD28F5B10800DBA776 /* SleepTrackerDetailsView.swift in Sources */,
 				3AD4F99328C25AEC002A2E5A /* ProfileView.swift in Sources */,
-				3A323F2B28EDF37000CFEF40 /* CheckInView.swift in Sources */,
 				3AD4F99528C25AFB002A2E5A /* RoutinesView.swift in Sources */,
+				3A60CD0528F8624B00DBA776 /* RecordJournalCard.swift in Sources */,
+				3A60CD0328F8622100DBA776 /* MoodTrackingCard.swift in Sources */,
+				3A60CD0128F8620600DBA776 /* RoutinesCard.swift in Sources */,
 				3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */,
 				3AD4F99728C25B1C002A2E5A /* TaskListView.swift in Sources */,
 				3A746DD428D9F4AB00D578F1 /* Body.swift in Sources */,
+				3A60CCFF28F861D400DBA776 /* SleepTrackingCard.swift in Sources */,
 				3A746DD628D9F53F00D578F1 /* Subtitle.swift in Sources */,
 				3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				3A60CD0728F8627A00DBA776 /* RecordJournalDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

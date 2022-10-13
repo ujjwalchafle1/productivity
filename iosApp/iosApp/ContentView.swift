@@ -30,7 +30,7 @@ struct ContentView: View {
 //                }
 //                .tag(3)
             
-            DailyJournalView()
+            SelfCheckinListView()
 //                .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "text.book.closed")
