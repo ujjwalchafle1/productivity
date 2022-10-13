@@ -10,17 +10,41 @@ import SwiftUI
 
 struct DailyCheckInView: View {
     
-    @State private var current = 33.0
-    @State private var minimum = 20.0
-    @State private var maximum = 60.0
+    @State private var mood = 50.0
+    
+    private var moodState: String {
+        withAnimation(.easeInOut(duration: 0.5)) {
+            if mood < 10.0 {
+                return "😭"
+            }
+            else if mood < 20.0 {
+                return "😢"
+            }
+            else if mood < 33.33 {
+                return "☹️"
+            }
+            else if mood > 66.66 && mood < 80.0{
+                return "😃"
+            }
+            else if mood > 80.0 {
+                return "🥳"
+            }
+            else {
+                return "😐"
+            }
+        }
+    }
+    
     var body: some View {
         VStack(spacing: .zero) {
             HStack {
                 VStack {
-                    Rectangle()
-                        .frame(width: 60, height: 100)
+                    Capsule()
+                        .stroke(lineWidth: 3.0)
+                        .frame(width: 50, height: 150)
                         .foregroundColor(Color.secondaryColor)
-                    
+                        .padding(.top, -50)
+                        
                     Spacer()
                 }
                 .padding(.leading, 20)
@@ -88,24 +112,37 @@ struct DailyCheckInView: View {
             .padding(.vertical, 10)
             .background(Color.white)
             
-            HStack {
-                Text.Subtitle2("Mood")
+            VStack(spacing: .zero) {
                 
-                Spacer()
-
-                HStack(spacing: .zero) {
-                    ForEach(1..<11) { num in
-                        Text("\(num)")
-                            .frame(width: 30, height: 30, alignment: .center)
-                            .background(Color.gray)
-                            .cornerRadius(10)
-
-                    }
+                HStack {
+                    Text.Headline4("Mood")
+                    Text.Headline3("\(moodState)")
                 }
                 
+                                
+                ZStack {
+                    LinearGradient(colors: [.red, .orange, .yellow, .yellow, .green, .green], startPoint: .leading, endPoint: .trailing)
+                        .mask {
+                            Slider(value: $mood, in: 0...100)
+                            {
+                                Text("Slider")
+                            } minimumValueLabel: {
+                                Text("Bad").font(.subheadline).fontWeight(.medium).foregroundColor(.red)
+                            } maximumValueLabel: {
+                                Text("Good").font(.subheadline).fontWeight(.medium).foregroundColor(.green)
+                            }
+                        }
+                    
+                    Slider(value: $mood, in: 0...100)
+                        .opacity(0.05)
+                        .padding()
+                }
+                .frame(maxHeight: 40)
+                
+                Spacer()
             }
             .frame(maxWidth: .infinity)
-            .padding(.horizontal, 20)
+            .padding(.all, 20)
             .background(Color.white)
             
             Spacer()
@@ -114,6 +151,16 @@ struct DailyCheckInView: View {
         .background(Color.red)
         .ignoresSafeArea()
     }
+    
+//    private func getMoodEmoji() {
+//        if mood < 33.33 {
+//            moodState = "Bad"
+//        } else if mood > 66.66 {
+//            moodState = "Good"
+//        } else {
+//            moodState = "Ok"
+//        }
+//    }
 }
 
 struct DailyCheckInView_Previews: PreviewProvider {

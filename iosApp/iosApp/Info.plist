@@ -30,6 +30,11 @@
 		<string>OpenSans-Medium.ttf</string>
 		<string>OpenSans-Regular.ttf</string>
 		<string>OpenSans-SemiBold.ttf</string>
+		<string>Comfortaa-Bold.ttf</string>
+		<string>Comfortaa-Light.ttf</string>
+		<string>Comfortaa-Medium.ttf</string>
+		<string>Comfortaa-Regular.ttf</string>
+		<string>Comfortaa-SemiBold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

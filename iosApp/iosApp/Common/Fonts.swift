@@ -38,7 +38,7 @@ extension Font {
 extension Font {
     private enum Defaults {
         static let defaultSize: CGFloat = 14
-        static let fontFamily = "OpenSans"
+        static let fontFamily = "Comfortaa"//"OpenSans"
         
         enum Weight {
             case light

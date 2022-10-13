@@ -52,7 +52,7 @@ extension Text {
         
         var body: some View {
             Text(content)
-                .font(.semiBold(14))
+                .font(.bold(14))
                 .foregroundColor(color)
         }
     }

@@ -10,11 +10,20 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		3A01485328F0830100B2F6A0 /* SelfCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01485228F0830100B2F6A0 /* SelfCheckInView.swift */; };
 		3A13225928CA2211009E4645 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A13225828CA2211009E4645 /* Colors.xcassets */; };
 		3A13225C28CA233B009E4645 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13225B28CA233B009E4645 /* Colors.swift */; };
 		3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */; };
 		3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */; };
 		3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226228CA2C22009E4645 /* ToolboxView.swift */; };
+		3A323F2B28EDF37000CFEF40 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A323F2A28EDF37000CFEF40 /* CheckInView.swift */; };
+		3A60CCCF28F4757E00DBA776 /* DailyJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */; };
+		3A60CCD628F56AD100DBA776 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */; };
+		3A60CCD728F56AD100DBA776 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */; };
+		3A60CCD828F56AD100DBA776 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD328F56AD100DBA776 /* Comfortaa-Light.ttf */; };
+		3A60CCD928F56AD100DBA776 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD428F56AD100DBA776 /* Comfortaa-Regular.ttf */; };
+		3A60CCDA28F56AD100DBA776 /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD528F56AD100DBA776 /* Comfortaa-SemiBold.ttf */; };
+		3A60CCDD28F5B10800DBA776 /* SleepTrackerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */; };
 		3A746DBE28D4A29200D578F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DBD28D4A29200D578F1 /* HomeView.swift */; };
 		3A746DC328D9EF0000D578F1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A746DC228D9EF0000D578F1 /* OpenSans-Bold.ttf */; };
 		3A746DC528D9EF1500D578F1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A746DC428D9EF1500D578F1 /* OpenSans-Light.ttf */; };
@@ -54,11 +63,20 @@
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		3A01485228F0830100B2F6A0 /* SelfCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckInView.swift; sourceTree = "<group>"; };
 		3A13225828CA2211009E4645 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3A13225B28CA233B009E4645 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysRemainingCard.swift; sourceTree = "<group>"; };
 		3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckInCard.swift; sourceTree = "<group>"; };
 		3A13226228CA2C22009E4645 /* ToolboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxView.swift; sourceTree = "<group>"; };
+		3A323F2A28EDF37000CFEF40 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJournalView.swift; sourceTree = "<group>"; };
+		3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		3A60CCD328F56AD100DBA776 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		3A60CCD428F56AD100DBA776 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		3A60CCD528F56AD100DBA776 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerDetailsView.swift; sourceTree = "<group>"; };
 		3A746DBD28D4A29200D578F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3A746DC228D9EF0000D578F1 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		3A746DC428D9EF1500D578F1 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
@@ -131,7 +149,7 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		3A746DBF28D9EEA800D578F1 /* Fonts */ = {
+		3A60CCD028F56AC100DBA776 /* OpenSans */ = {
 			isa = PBXGroup;
 			children = (
 				3A746DC228D9EF0000D578F1 /* OpenSans-Bold.ttf */,
@@ -140,6 +158,27 @@
 				3A746DC628D9EF1F00D578F1 /* OpenSans-Medium.ttf */,
 				3A746DC828D9EF2900D578F1 /* OpenSans-Regular.ttf */,
 				3A746DCA28D9EF3600D578F1 /* OpenSans-SemiBold.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		3A60CCDB28F56ADB00DBA776 /* Comfortaa */ = {
+			isa = PBXGroup;
+			children = (
+				3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */,
+				3A60CCD328F56AD100DBA776 /* Comfortaa-Light.ttf */,
+				3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */,
+				3A60CCD428F56AD100DBA776 /* Comfortaa-Regular.ttf */,
+				3A60CCD528F56AD100DBA776 /* Comfortaa-SemiBold.ttf */,
+			);
+			path = Comfortaa;
+			sourceTree = "<group>";
+		};
+		3A746DBF28D9EEA800D578F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A60CCDB28F56ADB00DBA776 /* Comfortaa */,
+				3A60CCD028F56AC100DBA776 /* OpenSans */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -158,6 +197,10 @@
 			isa = PBXGroup;
 			children = (
 				3A8D2CA528E34FF2008B469A /* DailyCheckInView.swift */,
+				3A323F2A28EDF37000CFEF40 /* CheckInView.swift */,
+				3A01485228F0830100B2F6A0 /* SelfCheckInView.swift */,
+				3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */,
+				3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */,
 			);
 			path = DailyLogger;
 			sourceTree = "<group>";
@@ -322,11 +365,16 @@
 				3A746DCB28D9EF3600D578F1 /* OpenSans-SemiBold.ttf in Resources */,
 				3A746DC528D9EF1500D578F1 /* OpenSans-Light.ttf in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
+				3A60CCDA28F56AD100DBA776 /* Comfortaa-SemiBold.ttf in Resources */,
+				3A60CCD828F56AD100DBA776 /* Comfortaa-Light.ttf in Resources */,
 				3A13225928CA2211009E4645 /* Colors.xcassets in Resources */,
+				3A60CCD728F56AD100DBA776 /* Comfortaa-Bold.ttf in Resources */,
 				3A746DC328D9EF0000D578F1 /* OpenSans-Bold.ttf in Resources */,
+				3A60CCD628F56AD100DBA776 /* Comfortaa-Medium.ttf in Resources */,
 				3A746DC928D9EF2900D578F1 /* OpenSans-Regular.ttf in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				3A746DCD28D9EF4B00D578F1 /* OpenSans-ExtraBold.ttf in Resources */,
+				3A60CCD928F56AD100DBA776 /* Comfortaa-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A60CCCF28F4757E00DBA776 /* DailyJournalView.swift in Sources */,
 				3A8D2CA628E34FF2008B469A /* DailyCheckInView.swift in Sources */,
 				3A13225C28CA233B009E4645 /* Colors.swift in Sources */,
 				3A746DCF28D9F07C00D578F1 /* Fonts.swift in Sources */,
@@ -367,8 +416,11 @@
 				3AD4F99B28C639C4002A2E5A /* DashboardViewData.swift in Sources */,
 				3AD4F99D28C63A22002A2E5A /* DashboardViewModelAdapter.swift in Sources */,
 				3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */,
+				3A01485328F0830100B2F6A0 /* SelfCheckInView.swift in Sources */,
 				3AD4F99928C25B2D002A2E5A /* NotesListView.swift in Sources */,
+				3A60CCDD28F5B10800DBA776 /* SleepTrackerDetailsView.swift in Sources */,
 				3AD4F99328C25AEC002A2E5A /* ProfileView.swift in Sources */,
+				3A323F2B28EDF37000CFEF40 /* CheckInView.swift in Sources */,
 				3AD4F99528C25AFB002A2E5A /* RoutinesView.swift in Sources */,
 				3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */,
 				3AD4F99728C25B1C002A2E5A /* TaskListView.swift in Sources */,
@@ -508,6 +560,7 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
 				INFOPLIST_FILE = iosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,6 +587,7 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
 				INFOPLIST_FILE = iosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

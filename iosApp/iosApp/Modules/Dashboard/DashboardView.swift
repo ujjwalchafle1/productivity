@@ -10,50 +10,51 @@ import SwiftUI
 import shared
 
 struct DashboardView: View {
+    @Binding var tabSelection: Int
     @StateObject private var viewModelAdapter: DashboardViewModelAdapter
     
-    init(viewModelAdapter: DashboardViewModelAdapter = DashboardViewModelAdapter()) {
+    @State private var isShowingSelfCheckInView = false
+
+    init(viewModelAdapter: DashboardViewModelAdapter = DashboardViewModelAdapter(), tabSelection: Binding<Int> = .constant(1)) {
        _viewModelAdapter = StateObject(wrappedValue: viewModelAdapter)
+        self._tabSelection = tabSelection
     }
     
     var body: some View {
-        VStack {
-            switch viewModelAdapter.viewData {
-            case .empty:
-                EmptyView()
-            case .content(let viewData):
-//                NavigationView {
-//                    ZStack {
-//                        Color.background.edgesIgnoringSafeArea(.all)
-//
-//                        VStack(alignment: .leading, spacing: 20)  {
-//                            DaysRemainingCard(
-//                                todaysDate: viewData.todayDateLabel,
-//                                remainingDays: viewData.daysRemainingInYear,
-//                                daysLeftLabel: viewData.daysLeftLabel
-//                            )
-//
-//                            SelfCheckInCard()
-//
-//                            Text("Your Toolbox")
-//                                .font(.system(size: 20, weight: .bold, design: .rounded))
-//
-//                            ToolboxView()
-//                            .frame(maxWidth: .infinity)
-//
-//                            Spacer()
-//                        }
-//                        .padding()
-//
-//                    }
+        NavigationView {
+            ZStack {
+                Color.primaryColor.opacity(0.03)
+                    .ignoresSafeArea()
+                
+                NavigationLink(destination: DailyJournalView(), isActive: $isShowingSelfCheckInView) { EmptyView() }
+                
+                VStack(alignment: .leading) {
                     
-                    HomeView()
-//                    .navigationTitle("Good afternoon")
-//                }
+                    Text.Headline5("Good Morning!")
+                        .padding()
+                    
+                    DaysRemainingCard()
+                    
+                    SelfCheckInCard()
+                        .onTapGesture {
+//                            tabSelection = 2
+                            isShowingSelfCheckInView = true
+                        }
+                    
+                    Spacer()
+                }
+                .frame(maxWidth: .infinity)
+                .padding()
             }
-        }
-        .onAppear {
-            viewModelAdapter.present()
+            
+            .navigationBarHidden(true)
         }
     }
 }
+
+struct DashboardView_Previews: PreviewProvider {
+    static var previews: some View {
+        DashboardView()
+    }
+}
+
