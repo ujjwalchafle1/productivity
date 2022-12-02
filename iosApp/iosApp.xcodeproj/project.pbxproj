@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		3A13225F28CA2B10009E4645 /* DaysRemainingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */; };
 		3A13226128CA2BA6009E4645 /* SelfCheckInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */; };
 		3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13226228CA2C22009E4645 /* ToolboxView.swift */; };
+		3A33BB1328F8BD2F00606F96 /* MoodTrackerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33BB1228F8BD2F00606F96 /* MoodTrackerDetailsView.swift */; };
+		3A3D914428FDE3850017A58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D914328FDE3850017A58B /* LaunchScreen.storyboard */; };
 		3A60CCCF28F4757E00DBA776 /* DailyJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */; };
 		3A60CCD628F56AD100DBA776 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */; };
 		3A60CCD728F56AD100DBA776 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */; };
@@ -28,6 +30,8 @@
 		3A60CD0528F8624B00DBA776 /* RecordJournalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0428F8624B00DBA776 /* RecordJournalCard.swift */; };
 		3A60CD0728F8627A00DBA776 /* RecordJournalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0628F8627A00DBA776 /* RecordJournalDetailsView.swift */; };
 		3A60CD0A28F864BE00DBA776 /* SelfCheckinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60CD0928F864BE00DBA776 /* SelfCheckinListView.swift */; };
+		3A6CD9C9290719D60022B551 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3A6CD9C8290719D60022B551 /* Realm */; };
+		3A6CD9CB290719D60022B551 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A6CD9CA290719D60022B551 /* RealmSwift */; };
 		3A746DBE28D4A29200D578F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746DBD28D4A29200D578F1 /* HomeView.swift */; };
 		3A746DC328D9EF0000D578F1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A746DC228D9EF0000D578F1 /* OpenSans-Bold.ttf */; };
 		3A746DC528D9EF1500D578F1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A746DC428D9EF1500D578F1 /* OpenSans-Light.ttf */; };
@@ -71,6 +75,8 @@
 		3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysRemainingCard.swift; sourceTree = "<group>"; };
 		3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCheckInCard.swift; sourceTree = "<group>"; };
 		3A13226228CA2C22009E4645 /* ToolboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxView.swift; sourceTree = "<group>"; };
+		3A33BB1228F8BD2F00606F96 /* MoodTrackerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerDetailsView.swift; sourceTree = "<group>"; };
+		3A3D914328FDE3850017A58B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJournalView.swift; sourceTree = "<group>"; };
 		3A60CCD128F56AD100DBA776 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
 		3A60CCD228F56AD100DBA776 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6CD9CB290719D60022B551 /* RealmSwift in Frameworks */,
+				3A6CD9C9290719D60022B551 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +139,7 @@
 			children = (
 				3A746DBF28D9EEA800D578F1 /* Fonts */,
 				3A13225828CA2211009E4645 /* Colors.xcassets */,
+				3A3D914328FDE3850017A58B /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -151,6 +160,17 @@
 				3A13225E28CA2B10009E4645 /* DaysRemainingCard.swift */,
 				3A13226028CA2BA6009E4645 /* SelfCheckInCard.swift */,
 				3A13226228CA2C22009E4645 /* ToolboxView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3A33BB1128F8BC2400606F96 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3A60CCFE28F861D400DBA776 /* SleepTrackingCard.swift */,
+				3A60CD0028F8620600DBA776 /* RoutinesCard.swift */,
+				3A60CD0228F8622100DBA776 /* MoodTrackingCard.swift */,
+				3A60CD0428F8624B00DBA776 /* RecordJournalCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -180,13 +200,6 @@
 			path = Comfortaa;
 			sourceTree = "<group>";
 		};
-		3A60CD0828F8646100DBA776 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		3A746DBF28D9EEA800D578F1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,14 +222,12 @@
 		3A8D2CA428E34FAC008B469A /* DailyLogger */ = {
 			isa = PBXGroup;
 			children = (
+				3A33BB1128F8BC2400606F96 /* Components */,
 				3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */,
 				3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */,
-				3A60CCFE28F861D400DBA776 /* SleepTrackingCard.swift */,
-				3A60CD0028F8620600DBA776 /* RoutinesCard.swift */,
-				3A60CD0228F8622100DBA776 /* MoodTrackingCard.swift */,
-				3A60CD0428F8624B00DBA776 /* RecordJournalCard.swift */,
 				3A60CD0628F8627A00DBA776 /* RecordJournalDetailsView.swift */,
 				3A60CD0928F864BE00DBA776 /* SelfCheckinListView.swift */,
+				3A33BB1228F8BD2F00606F96 /* MoodTrackerDetailsView.swift */,
 			);
 			path = DailyLogger;
 			sourceTree = "<group>";
@@ -224,7 +235,6 @@
 		3AD4F98A28C2466E002A2E5A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3A60CD0828F8646100DBA776 /* New Group */,
 				3A8D2CA428E34FAC008B469A /* DailyLogger */,
 				3AD4F99128C25AD6002A2E5A /* Profile */,
 				3AD4F99028C25ACD002A2E5A /* Routines */,
@@ -336,6 +346,10 @@
 			dependencies = (
 			);
 			name = iosApp;
+			packageProductDependencies = (
+				3A6CD9C8290719D60022B551 /* Realm */,
+				3A6CD9CA290719D60022B551 /* RealmSwift */,
+			);
 			productName = iosApp;
 			productReference = 7555FF7B242A565900829871 /* iosApp.app */;
 			productType = "com.apple.product-type.application";
@@ -364,6 +378,9 @@
 				Base,
 			);
 			mainGroup = 7555FF72242A565900829871;
+			packageReferences = (
+				3A6CD9C7290719D60022B551 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 7555FF7C242A565900829871 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -381,6 +398,7 @@
 				3A746DC728D9EF1F00D578F1 /* OpenSans-Medium.ttf in Resources */,
 				3A746DCB28D9EF3600D578F1 /* OpenSans-SemiBold.ttf in Resources */,
 				3A746DC528D9EF1500D578F1 /* OpenSans-Light.ttf in Resources */,
+				3A3D914428FDE3850017A58B /* LaunchScreen.storyboard in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 				3A60CCDA28F56AD100DBA776 /* Comfortaa-SemiBold.ttf in Resources */,
 				3A60CCD828F56AD100DBA776 /* Comfortaa-Light.ttf in Resources */,
@@ -447,6 +465,7 @@
 				3A746DD628D9F53F00D578F1 /* Subtitle.swift in Sources */,
 				3A13226328CA2C22009E4645 /* ToolboxView.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				3A33BB1328F8BD2F00606F96 /* MoodTrackerDetailsView.swift in Sources */,
 				3A60CD0728F8627A00DBA776 /* RecordJournalDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,6 +665,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A6CD9C7290719D60022B551 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.32.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A6CD9C8290719D60022B551 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A6CD9C7290719D60022B551 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		3A6CD9CA290719D60022B551 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A6CD9C7290719D60022B551 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7555FF73242A565900829871 /* Project object */;
 }

@@ -31,10 +31,12 @@ struct RecordJournalCard: View {
             .buttonStyle(.bordered)
             .padding()
         }
-        .frame(maxWidth: .infinity)
         .background(Color.white)
-        .cornerRadius(3)
+        .cornerRadius(10)
         .shadow(radius: 1)
+        .onTapGesture {
+            action()
+        }
     }
 }
 

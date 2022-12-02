@@ -9,25 +9,24 @@
 import SwiftUI
 
 struct RecordJournalDetailsView: View {
+
     var body: some View {
-        
-        VStack(alignment: .leading, spacing: .zero) {
-            Text("Let's get it out!")
-                .font(.title2)
-                .foregroundColor(.gray)
-                .padding()
-            
-            VStack(spacing: 2) {
+        ScrollView {
+            VStack(alignment: .leading, spacing: .zero) {
+                HStack {
+                    Image(systemName: "magazine")
+                        .font(.title)
+                        .frame(width: 40, height: 40)
+                        .padding()
+                    
+                    Text.Headline5("Let's get it out!")
+                }
+                
+                TextEditorView(text: "Start Simple!")
+                
+                Spacer()
+                
             }
-            .frame(height: 400)
-            .frame(maxWidth: .infinity)
-            .background(Color.white)
-            .cornerRadius(3)
-            .shadow(radius: 1)
-            .padding()
-            
-            Spacer()
-            
         }
     }
 }

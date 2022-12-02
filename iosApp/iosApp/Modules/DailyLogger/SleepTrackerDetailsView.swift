@@ -7,12 +7,22 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct SleepTrackerDetailsView: View {
-    
+    @State var text: String = "Notes"
     @State var sleepQuality: String = ""
     @State var bedTime = Date()
     @State var wakeupTime = Date()
+    
+    var realm: Realm!
+    @State var sleep : Sleep?
+
+    init(sleep : Sleep?) {
+        // Open the local-only default realm
+        realm = try! Realm()
+        self.sleep = sleep
+    }
     
     var body: some View {
         ScrollView {
@@ -63,123 +73,75 @@ struct SleepTrackerDetailsView: View {
                 Text.Headline5("How was your sleep quality last night?")
                     .padding(.horizontal)
                 
-                HStack {
-                    Text.Subtitle1("Quality:")
-                    Text.Subtitle1(sleepQuality.isEmpty ? "Unknown": sleepQuality, color: sleepQuality.isEmpty ? .red : .green)
-                    
-                    Spacer()
-                }
-                .padding()
-                
                 HStack(alignment: .center, spacing: 20) {
-                    Rectangle()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.red.opacity(0.1))
-                        .overlay {
-                            VStack(spacing: .zero) {
-                                if sleepQuality == "Poor" {
-                                    withAnimation(.easeOut(duration: 0.2)) {
-                                        HStack {
-                                            Spacer()
-                                            Image(systemName: "checkmark.square.fill")
-                                                .padding(.horizontal, 5)
-                                                .padding(.top, -15)
-                                        }
-                                    }
-                                }
-                                VStack(spacing: 10) {
-                                    Text.Headline5("☹️")
-                                    Text.Subtitle1("Poor")
-                                }
-                            }
-                        }
-                        .cornerRadius(5)
-                        .onTapGesture {
-                            withAnimation(.easeOut(duration: 0.5)) {
-                                sleepQuality = "Poor"
-                            }
-                        }
+                    EmotionView(emoji: "☹️", emotion: "Poor", isSelected: sleepQuality == "Poor") {
+                        sleepQuality = "Poor"
+                    }
                     
-                    Rectangle()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.gray.opacity(0.2))
-                        .overlay {
-                            VStack(spacing: .zero) {
-                                if sleepQuality == "Average" {
-                                    withAnimation(.easeOut(duration: 0.5)) {
-                                        HStack {
-                                            Spacer()
-                                            Image(systemName: "checkmark.square.fill")
-                                                .padding(.horizontal, 5)
-                                                .padding(.top, -15)
-                                        }
-                                    }
-                                }
-                                VStack(spacing: 10) {
-                                    Text.Headline5("😐")
-                                    Text.Subtitle1("Average")
-                                }
-                            }
-                        }
-                        .cornerRadius(5)
-                        .shadow(radius: 1)
-                        .onTapGesture {
-                            withAnimation(.easeOut(duration: 0.5)) {
-                                sleepQuality = "Average"
-                            }
-                        }
-                    Rectangle()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.green.opacity(0.2))
-                        .overlay {
-                            VStack(spacing: .zero) {
-                                if sleepQuality == "Good" {
-                                    withAnimation(.easeOut(duration: 0.5)) {
-                                        HStack {
-                                            Spacer()
-                                            Image(systemName: "checkmark.square.fill")
-                                                .padding(.horizontal, 5)
-                                                .padding(.top, -15)
-                                        }
-                                    }
-                                }
-                                VStack(spacing: 10) {
-                                    Text.Headline5("😃")
-                                    Text.Subtitle1("Good")
-                                }
-                            }
-                        }
-                        .cornerRadius(5)
-                        .shadow(radius: 1)
-                        .onTapGesture {
-                            withAnimation(.easeOut(duration: 0.5)) {
-                                sleepQuality = "Good"
-                            }
-                        }
+                    EmotionView(emoji: "🙂", emotion: "Average", isSelected: sleepQuality == "Average") {
+                        sleepQuality = "Average"
+                    }
+                    
+                    EmotionView(emoji: "😀", emotion: "Good", isSelected: sleepQuality == "Good") {
+                        sleepQuality = "Good"
+                    }
                 }
                 
                 Divider()
                     .padding()
                 
-                VStack(alignment: .leading) {
-                    Text.Headline5("Notes:")
-                        .padding(.horizontal)
-                    
-                    Rectangle()
-                        .frame(height: 300)
-                        .foregroundColor(.accentColor.opacity(0.1))
-                        .cornerRadius(5)
-                }
+                TextEditorView()
                 
                 Spacer()
             }
             .padding()
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            sleepQuality = sleep?.sleepQuality ?? "Good"
+
+//            let dailyCheckIn = realm.objects(DailyCheckIn.self)
+//
+//            let todaysCheckIn = dailyCheckIn.where {
+//                $0.date == "\(Date.getCurrentDate())"
+//            }
+//            if  todaysCheckIn.count > 0 {
+//                sleep = todaysCheckIn.first?.sleep
+//            }
+//            print("todaysCheckIn: \(todaysCheckIn)")
+        }
+        .onDisappear {
+            if let sleep = sleep {
+                sleep.sleepQuality = sleepQuality
+                try! realm.write {
+                    realm.add(sleep)
+                }
+            }
         }
     }
 }
 
 struct SleepTrackerDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        SleepTrackerDetailsView()
+        SleepTrackerDetailsView(sleep: .init(bedTime: "12:39", wakeupTime: "09:30", sleepQuality: "Average", notes: "xyz"))
+    }
+}
+
+struct TextEditorView: View {
+    @State var text: String = "Notes"
+    var body: some View {
+        VStack(spacing: 2) {
+            TextEditor(text: $text)
+                .padding()
+                .font(.headline)
+                .foregroundColor(Color.primaryColor)
+            
+        }
+        .frame(height: 400)
+        .frame(maxWidth: .infinity)
+        .background(Color.white)
+        .cornerRadius(10)
+        .shadow(radius: 2)
+        .padding()
     }
 }

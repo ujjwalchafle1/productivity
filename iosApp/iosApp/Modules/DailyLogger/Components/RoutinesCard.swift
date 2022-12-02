@@ -54,7 +54,7 @@ struct RoutinesCard: View {
         .frame(maxWidth: .infinity)
         .frame(width: 200, height: 230)
         .background(Color.white)
-        .cornerRadius(3)
+        .cornerRadius(10)
         .shadow(radius: 1)
     }
 }

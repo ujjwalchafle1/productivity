@@ -10,23 +10,32 @@ import SwiftUI
 
 struct SelfCheckinListView: View {
     @State private var isShowingDetailView = false
-
+    
+    
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("All Checkins")) {
-                    ForEach(0..<10) { num in
-                        NavigationLink {
-                            DailyJournalView()
-                        } label: {
+                Section(header: Text("Check-ins")) {
+                    
+                    ForEach(0..<4) { index in
+                        
+                        ZStack(alignment: .leading) {
+                            NavigationLink(
+                                destination: DailyJournalView()) {
+                                    EmptyView()
+                                }
+                                .opacity(0)
+                            
                             SelfCheckinCell()
                         }
+                       
                     }
+                    .listRowBackground(Color.clear)
+                    .listRowSeparator(.hidden)
                 }
                 .headerProminence(.increased)
             }
-            .listStyle(.insetGrouped)
-            
+            .listStyle(.grouped)
             .navigationBarHidden(true)
         }
     }
@@ -39,11 +48,12 @@ struct SelfCheckinListView_Previews: PreviewProvider {
 }
 
 struct SelfCheckinCell: View {
+    let images = ["powersleep", "theatermasks.fill", "fork.knife", "magazine"]
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        VStack(alignment: .leading, spacing: 10) {
             
-            
-            Text("12th Octomber, 2022")
+            Text.Subtitle1("12th Octomber, 2022")
             
             Divider()
             
@@ -52,17 +62,24 @@ struct SelfCheckinCell: View {
                     Circle()
                         .foregroundColor(.gray.opacity(0.1))
                         .overlay {
-                            Image(systemName: "clock.arrow.circlepath")
+                            Image(systemName: images[num])
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 25, height: 25)
-                                .foregroundColor(.orange)
+                                .frame(width: 20, height: 20)
+                                .foregroundColor(.primaryColor)
                         }
-                        .frame(width: 45, height: 45)
+                        .frame(width: 40, height: 40)
+                        .padding(.horizontal)
+                        .padding(.vertical, 10)
+
                 }
             }
         }
+        .frame(maxWidth: .infinity)
         .padding()
+        .background(Color.white)
+        .cornerRadius(10)
+        .shadow(radius: 1)
         
     }
 }
