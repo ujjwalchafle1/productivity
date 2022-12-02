@@ -11,14 +11,11 @@ import SwiftUI
 struct SelfCheckinListView: View {
     @State private var isShowingDetailView = false
     
-    
     var body: some View {
         NavigationView {
             List {
                 Section(header: Text("Check-ins")) {
-                    
                     ForEach(0..<4) { index in
-                        
                         ZStack(alignment: .leading) {
                             NavigationLink(
                                 destination: DailyJournalView()) {
@@ -28,7 +25,6 @@ struct SelfCheckinListView: View {
                             
                             SelfCheckinCell()
                         }
-                       
                     }
                     .listRowBackground(Color.clear)
                     .listRowSeparator(.hidden)

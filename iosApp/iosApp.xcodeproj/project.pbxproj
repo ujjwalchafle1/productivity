@@ -222,14 +222,31 @@
 		3A8D2CA428E34FAC008B469A /* DailyLogger */ = {
 			isa = PBXGroup;
 			children = (
-				3A33BB1128F8BC2400606F96 /* Components */,
-				3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */,
+				3AD3C58B293A5F490077798C /* Private */,
 				3A60CCDC28F5B10800DBA776 /* SleepTrackerDetailsView.swift */,
 				3A60CD0628F8627A00DBA776 /* RecordJournalDetailsView.swift */,
 				3A60CD0928F864BE00DBA776 /* SelfCheckinListView.swift */,
 				3A33BB1228F8BD2F00606F96 /* MoodTrackerDetailsView.swift */,
 			);
 			path = DailyLogger;
+			sourceTree = "<group>";
+		};
+		3AD3C58A293A5EEE0077798C /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				3A13225D28CA2AE2009E4645 /* Components */,
+				3AD4F98B28C24693002A2E5A /* DashboardView.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		3AD3C58B293A5F490077798C /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				3A33BB1128F8BC2400606F96 /* Components */,
+				3A60CCCE28F4757E00DBA776 /* DailyJournalView.swift */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 		3AD4F98A28C2466E002A2E5A /* Modules */ = {
@@ -248,8 +265,7 @@
 		3AD4F98D28C25AA9002A2E5A /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				3A13225D28CA2AE2009E4645 /* Components */,
-				3AD4F98B28C24693002A2E5A /* DashboardView.swift */,
+				3AD3C58A293A5EEE0077798C /* Private */,
 				3AD4F99A28C639C4002A2E5A /* DashboardViewData.swift */,
 				3AD4F99C28C63A22002A2E5A /* DashboardViewModelAdapter.swift */,
 				3A746DBD28D4A29200D578F1 /* HomeView.swift */,

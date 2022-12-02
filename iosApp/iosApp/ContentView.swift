@@ -12,39 +12,15 @@ struct ContentView: View {
                     Text("Home")
                 }
                 .tag(1)
-            
-//            NotesListView()
-//            DailyJournalView()
-//                .font(.system(size: 30, weight: .bold, design: .rounded))
-//                .tabItem {
-//                    Image(systemName: "book.fill")
-//                    Text("Notes")
-//                }
-//                .tag(2)
-            
-//            SelfCheckInView()
-////                .font(.system(size: 30, weight: .bold, design: .rounded))
-//                .tabItem {
-//                    Image(systemName: "checklist")
-//                    Text("Tasks")
-//                }
-//                .tag(3)
-            
+                        
             SelfCheckinListView()
 //                .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "text.book.closed")
                     Text("Check-ins")
                 }
-                .tag(4)
+                .tag(2)
             
-//            ProfileView()
-//                .font(.system(size: 30, weight: .bold, design: .rounded))
-//                .tabItem {
-//                    Image(systemName: "person.crop.circle")
-//                    Text("Profile")
-//                }
-//                .tag(5)
         }
         .accentColor(.primaryColor)
 	}
